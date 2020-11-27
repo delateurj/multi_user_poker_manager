@@ -1,11 +1,16 @@
 const getTournamentList = require("./mavensAPI").getTournamentList;
 const getTournament = require("./mavensAPI").getTournament;
-const fs = require("fs");
+const fs = require("fs").promises;
 
 async function processTournaments() {
   let tournaments = [];
 
   try {
+
+    let dataLines = await fs.readFile("dataLines.txt", 'utf8');
+
+    dataLines = dataLines.split("\n");
+
     let tournamentList = await getTournamentList();
     let output = "";
     let tournamentDateList = tournamentList.Date;
@@ -14,8 +19,7 @@ async function processTournaments() {
     /*   tournamentDateList = ["2020-10-10"];
     tournamentList.Name = ["$1 Tournament"];
  */
-    let dataLinesWithBlanks = [];
-    let dataLines = [];
+    /* let dataLinesWithBlanks = [];
     for (const [index, logDate] of tournamentDateList.entries()) {
       if (logDate > "2020-11-06") {
         console.log(logDate, tournamentList.Name[index]);
@@ -28,11 +32,17 @@ async function processTournaments() {
         //logic will be needed
         dataLinesWithBlanks = dataLinesWithBlanks.concat(response.Data);
       }
-    }
+    } */
 
     //Need to strip out all blank lines that resolve to undefined.
     //Otherwise functions like .includes will fail
-    dataLines = dataLinesWithBlanks.filter((el) => el !== undefined);
+    //dataLines = dataLinesWithBlanks.filter((el) => el !== undefined);
+
+    /*  fs.writeFile("dataLines.txt", dataLines.join("\n"), (err) => {
+       if (err) {
+         console.log(err);
+       }
+     }); */
 
     let nextTournamentLine = dataLines.findIndex((element) =>
       element.includes("Tournament=")
