@@ -22,16 +22,31 @@ async function readAndProcessHH(
     if (
       useLocal &&
       fsNotPromises.existsSync(
-        startDate + "_" + endDate + "_" + "hhDataLines.txt"
+        "./serverFilesCache/" +
+          startDate +
+          "_" +
+          endDate +
+          "_" +
+          "hhDataLines.txt"
       )
     ) {
       console.log(
         "Using local file:",
-        startDate + "_" + endDate + "_" + "hhDataLines.txt"
+        "./serverFilesCache/" +
+          startDate +
+          "_" +
+          endDate +
+          "_" +
+          "hhDataLines.txt"
       );
       try {
         dataLines = await fs.readFile(
-          startDate + "_" + endDate + "_" + "hhDataLines.txt",
+          "./serverFilesCache/" +
+            startDate +
+            "_" +
+            endDate +
+            "_" +
+            "hhDataLines.txt",
           "utf8"
         );
         dataLines = dataLines.split("\n");
@@ -67,7 +82,12 @@ async function readAndProcessHH(
       dataLines = dataLinesWithBlanks.filter((el) => el !== undefined);
 
       fs.writeFile(
-        startDate + "_" + endDate + "_" + "hhDataLines.txt",
+        "./serverFilesCache/" +
+          startDate +
+          "_" +
+          endDate +
+          "_" +
+          "hhDataLines.txt",
         dataLines.join("\n"),
         (err) => {
           if (err) {

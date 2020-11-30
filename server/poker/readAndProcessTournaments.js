@@ -1,6 +1,8 @@
 const getTournamentList = require("./mavensAPI").getTournamentList;
 const getTournament = require("./mavensAPI").getTournament;
 const fs = require("fs").promises;
+const fsNotPromises = require("fs");
+const argv = require("yargs/yargs")(process.argv.slice(2)).argv;
 
 async function readAndProcessTournaments(
   startDate = undefined,
@@ -13,16 +15,31 @@ async function readAndProcessTournaments(
     if (
       useLocal &&
       fsNotPromises.existsSync(
-        startDate + "_" + endDate + "_" + "tournamentDataLines.txt"
+        "./serverFilesCache/" +
+          startDate +
+          "_" +
+          endDate +
+          "_" +
+          "tournamentDataLines.txt"
       )
     ) {
       console.log(
         "Using local file:",
-        startDate + "_" + endDate + "_" + "tournamentDataLines.txt"
+        "./serverFilesCache/" +
+          startDate +
+          "_" +
+          endDate +
+          "_" +
+          "tournamentDataLines.txt"
       );
       try {
         dataLines = await fs.readFile(
-          startDate + "_" + endDate + "_" + "tournamentDataLines.txt",
+          "./serverFilesCache/" +
+            startDate +
+            "_" +
+            endDate +
+            "_" +
+            "tournamentDataLines.txt",
           "utf8"
         );
         dataLines = dataLines.split("\n");
@@ -60,7 +77,12 @@ async function readAndProcessTournaments(
       dataLines = dataLinesWithBlanks.filter((el) => el !== undefined);
 
       fs.writeFile(
-        startDate + "_" + endDate + "_" + "tournamentDataLines.txt",
+        "./serverFilesCache/" +
+          startDate +
+          "_" +
+          endDate +
+          "_" +
+          "tournamentDataLines.txt",
         dataLines.join("\n"),
         (err) => {
           if (err) {
@@ -342,4 +364,4 @@ async function readAndProcessTournaments(
     console.log(err);
   }
 }
-readAndProcessTournaments();
+readAndProcessTournaments(argv.start, argv.end, argv.useLocal);
