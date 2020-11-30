@@ -1,20 +1,51 @@
-SDeLateur,119.75
+SDeLateur,160
+MDeLateur,-31.5
+RDeLateur,-105.5
+MattDeLateur,-56
+BigByteMe,45
 KOThompson,3
-BigByteMe,49.25
-MDeLateur,-21.5
-RDeLateur,-99.5
-MattDeLateur,-36
 GrossR,-15
-SDeLateur,2020-11-26 00:14:12,-5,$5 1hr reg/rebuy no chop rebuy
-SDeLateur,2020-11-26 00:32:56,-5,$5 1hr reg/rebuy no chop rebuy
-SDeLateur,2020-11-11 21:26:48,-5,$5 Tournament
-SDeLateur,2020-11-11 21:32:35,5,$5 Tournament
-SDeLateur,2020-11-11 21:52:00,-5,$5 Tournament
-SDeLateur,2020-11-11 23:14:22,20,$5 Tournament
+SDeLateur,2020-11-29 00:01:31,-5,$5 1hr reg/rebuy no chop
+SDeLateur,2020-11-29 00:24:55,-5,$5 1hr reg/rebuy no chop rebuy
+SDeLateur,2020-11-29 00:40:22,26,$5 1hr reg/rebuy no chop
+SDeLateur,2020-11-29 00:42:35,-5,$5 1hr reg/rebuy no chop
+SDeLateur,2020-11-29 01:21:44,10,$5 1hr reg/rebuy no chop
+SDeLateur,2020-11-29 19:46:59,-5,$5 1hr late reg/rebuy Top 2 chop
+SDeLateur,2020-11-29 20:06:09,5,$5 1hr late reg/rebuy Top 2 chop
+SDeLateur,2020-11-29 20:10:12,-5,$5 1hr reg/rebuy no chop
+SDeLateur,2020-11-29 20:11:25,-5,$5 1hr late reg/rebuy Top 2 chop
+SDeLateur,2020-11-29 20:48:11,-5,$5 1hr reg/rebuy no chop rebuy
+SDeLateur,2020-11-29 21:41:14,5,$5 1hr late reg/rebuy Top 2 chop
+SDeLateur,2020-11-29 21:41:25,-5,$5 1hr reg/rebuy no chop
+SDeLateur,2020-11-29 22:06:57,-5,$5 1hr reg/rebuy no chop rebuy
+SDeLateur,2020-11-29 22:12:24,-5,$5 1hr reg/rebuy no chop rebuy
+SDeLateur,2020-11-29 22:44:00,30,$5 1hr reg/rebuy no chop
+SDeLateur,2020-11-29 22:53:51,-5,$5 1hr reg/rebuy no chop
+SDeLateur,2020-11-29 23:59:57,5,$5 1hr reg/rebuy no chop
 SDeLateur,2020-11-07 19:44:08,-5,$5 Tournament
 SDeLateur,2020-11-07 21:24:21,16.25,$5 Tournament
 SDeLateur,2020-11-07 21:24:57,-5,$5 Tournament
 SDeLateur,2020-11-07 22:31:17,15,$5 Tournament
+SDeLateur,2020-11-14 00:18:24,-5,$5 Tournament rebuy
+SDeLateur,2020-11-14 00:26:48,-5,$5 Tournament rebuy
+SDeLateur,2020-11-14 01:02:43,-5,Another $5 tourney
+SDeLateur,2020-11-14 01:06:45,-5,$5 Tournament
+SDeLateur,2020-11-14 01:06:51,5,Another $5 tourney
+SDeLateur,2020-11-14 22:15:52,-5,$5 Tournament
+SDeLateur,2020-11-14 22:57:40,-5,$5 Tournament rebuy
+SDeLateur,2020-11-18 00:12:37,5,$5 Tournament
+SDeLateur,2020-11-18 00:21:46,-5,$5 Tournament
+SDeLateur,2020-11-18 00:36:33,-5,$5 Tournament rebuy
+SDeLateur,2020-11-18 22:44:51,-5,$5 Tournament
+SDeLateur,2020-11-18 23:48:10,20,$5 Tournament
+SDeLateur,2020-11-18 23:51:11,-5,Top 2 Chop $5
+SDeLateur,2020-11-19 00:45:19,15,Top 2 Chop $5
+SDeLateur,2020-11-19 00:48:06,-5,$5 Tournament
+SDeLateur,2020-11-19 00:51:21,5,$5 Tournament
+SDeLateur,2020-11-19 21:54:51,-5,1hr Rebuys/Regist Top 2 Chop
+SDeLateur,2020-11-19 22:58:14,-5,$5 1hr late reg/rebuy Top 2 chop
+SDeLateur,2020-11-10 22:00:16,-5,$5 Tournament
+SDeLateur,2020-11-10 23:26:32,19.5,$5 Tournament
 SDeLateur,2020-11-15 00:01:07,-5,$5 Tournament
 SDeLateur,2020-11-15 00:07:15,-5,$5 Tournament rebuy
 SDeLateur,2020-11-15 00:36:07,17.5,$5 Tournament
@@ -25,6 +56,30 @@ SDeLateur,2020-11-15 20:58:04,25,$5 Tournament
 SDeLateur,2020-11-15 21:02:16,-5,$5 Tournament
 SDeLateur,2020-11-15 21:19:09,-5,$5 Tournament rebuy
 SDeLateur,2020-11-15 21:42:57,30,$5 Tournament
+SDeLateur,2020-11-20 00:21:15,30,$5 1hr late reg/rebuy Top 2 chop
+SDeLateur,2020-11-20 22:26:31,-1,Test Chop
+SDeLateur,2020-11-20 22:28:34,2,Test Chop
+SDeLateur,2020-11-20 22:37:08,-5,$5 1hr late reg/rebuy Top 2 chop
+SDeLateur,2020-11-20 23:09:58,-5,$5 1hr late reg/rebuy Top 2 chop rebuy
+SDeLateur,2020-11-22 22:51:37,-5,Another $5 tourney
+SDeLateur,2020-11-22 23:30:37,-5,$5 1hr late reg/rebuy Top 2 chop
+SDeLateur,2020-11-22 23:51:13,5,$5 1hr late reg/rebuy Top 2 chop
+SDeLateur,2020-11-22 23:51:45,-5,Another $5 tourney
+SDeLateur,2020-11-13 22:26:25,-5,$5 Tournament
+SDeLateur,2020-11-13 22:44:25,-5,$5 Tournament rebuy
+SDeLateur,2020-11-13 23:49:14,14,$5 Tournament
+SDeLateur,2020-11-13 23:56:12,-5,$5 Tournament
+SDeLateur,2020-11-17 00:06:34,-5,$5 Tournament rebuy
+SDeLateur,2020-11-17 00:14:33,-5,$5 Tournament rebuy
+SDeLateur,2020-11-17 23:01:30,-5,$5 Tournament
+SDeLateur,2020-11-16 21:29:37,-5,$5 Tournament
+SDeLateur,2020-11-16 23:57:28,-5,$5 Tournament
+SDeLateur,2020-11-27 21:19:35,-5,$5 1hr reg/rebuy no chop
+SDeLateur,2020-11-27 23:00:27,29.25,$5 1hr reg/rebuy no chop
+SDeLateur,2020-11-27 23:03:52,-5,$5 1hr reg/rebuy no chop
+SDeLateur,2020-11-27 23:18:45,-5,$5 1hr reg/rebuy no chop rebuy
+SDeLateur,2020-11-26 00:14:12,-5,$5 1hr reg/rebuy no chop rebuy
+SDeLateur,2020-11-26 00:32:56,-5,$5 1hr reg/rebuy no chop rebuy
 SDeLateur,2020-11-21 00:50:56,-5,Another $5 tourney
 SDeLateur,2020-11-21 00:51:27,5,Another $5 tourney
 SDeLateur,2020-11-21 00:54:07,-5,Another $5 tourney
@@ -34,10 +89,16 @@ SDeLateur,2020-11-21 01:08:12,-5,$5 1hr late reg/rebuy Top 2 chop rebuy
 SDeLateur,2020-11-21 01:40:15,-5,$5 1hr late reg/rebuy Top 2 chop rebuy
 SDeLateur,2020-11-21 01:48:28,-5,$5 1hr late reg/rebuy Top 2 chop rebuy
 SDeLateur,2020-11-21 02:02:13,12,$5 1hr late reg/rebuy Top 2 chop
-SDeLateur,2020-11-13 22:26:25,-5,$5 Tournament
-SDeLateur,2020-11-13 22:44:25,-5,$5 Tournament rebuy
-SDeLateur,2020-11-13 23:49:14,14,$5 Tournament
-SDeLateur,2020-11-13 23:56:12,-5,$5 Tournament
+SDeLateur,2020-11-11 21:26:48,-5,$5 Tournament
+SDeLateur,2020-11-11 21:32:35,5,$5 Tournament
+SDeLateur,2020-11-11 21:52:00,-5,$5 Tournament
+SDeLateur,2020-11-11 23:14:22,20,$5 Tournament
+SDeLateur,2020-11-25 22:03:54,-5,$5 1hr reg/rebuy no chop
+SDeLateur,2020-11-25 22:04:57,5,$5 1hr reg/rebuy no chop
+SDeLateur,2020-11-25 22:05:02,-5,Original $5 Tourney
+SDeLateur,2020-11-25 22:21:33,-5,Original $5 Tourney rebuy
+SDeLateur,2020-11-25 23:37:43,35.75,Original $5 Tourney
+SDeLateur,2020-11-25 23:40:55,-5,$5 1hr reg/rebuy no chop
 SDeLateur,2020-11-23 00:21:53,-5,Another $5 tourney rebuy
 SDeLateur,2020-11-23 00:50:12,20,Another $5 tourney
 SDeLateur,2020-11-23 20:22:30,-5,$5 1hr late reg/rebuy Top 2 chop
@@ -45,149 +106,21 @@ SDeLateur,2020-11-23 21:45:32,5,$5 1hr late reg/rebuy Top 2 chop
 SDeLateur,2020-11-23 21:46:37,-5,Another $5 tourney
 SDeLateur,2020-11-23 22:40:41,20,Another $5 tourney
 SDeLateur,2020-11-23 22:55:19,-5,$5 Deep Stack (3x starting chips
-SDeLateur,2020-11-16 21:29:37,-5,$5 Tournament
-SDeLateur,2020-11-16 23:57:28,-5,$5 Tournament
-SDeLateur,2020-11-14 00:18:24,-5,$5 Tournament rebuy
-SDeLateur,2020-11-14 00:26:48,-5,$5 Tournament rebuy
-SDeLateur,2020-11-14 01:02:43,-5,Another $5 tourney
-SDeLateur,2020-11-14 01:06:45,-5,$5 Tournament
-SDeLateur,2020-11-14 01:06:51,5,Another $5 tourney
-SDeLateur,2020-11-14 22:15:52,-5,$5 Tournament
-SDeLateur,2020-11-14 22:57:40,-5,$5 Tournament rebuy
-SDeLateur,2020-11-19 00:45:19,15,Top 2 Chop $5
-SDeLateur,2020-11-19 00:48:06,-5,$5 Tournament
-SDeLateur,2020-11-19 00:51:21,5,$5 Tournament
-SDeLateur,2020-11-19 21:54:51,-5,1hr Rebuys/Regist Top 2 Chop
-SDeLateur,2020-11-19 22:58:14,-5,$5 1hr late reg/rebuy Top 2 chop
-SDeLateur,2020-11-22 22:51:37,-5,Another $5 tourney
-SDeLateur,2020-11-22 23:30:37,-5,$5 1hr late reg/rebuy Top 2 chop
-SDeLateur,2020-11-22 23:51:13,5,$5 1hr late reg/rebuy Top 2 chop
-SDeLateur,2020-11-22 23:51:45,-5,Another $5 tourney
-SDeLateur,2020-11-10 22:00:16,-5,$5 Tournament
-SDeLateur,2020-11-10 23:26:32,19.5,$5 Tournament
-SDeLateur,2020-11-18 00:12:37,5,$5 Tournament
-SDeLateur,2020-11-18 00:21:46,-5,$5 Tournament
-SDeLateur,2020-11-18 00:36:33,-5,$5 Tournament rebuy
-SDeLateur,2020-11-18 22:44:51,-5,$5 Tournament
-SDeLateur,2020-11-18 23:48:10,20,$5 Tournament
-SDeLateur,2020-11-18 23:51:11,-5,Top 2 Chop $5
 SDeLateur,2020-11-08 20:26:11,-5,$5 Tournament
 SDeLateur,2020-11-08 21:42:51,8.75,$5 Tournament
 SDeLateur,2020-11-08 21:42:58,-5,Another $5 tourney
-SDeLateur,2020-11-20 00:21:15,30,$5 1hr late reg/rebuy Top 2 chop
-SDeLateur,2020-11-20 22:26:31,-1,Test Chop
-SDeLateur,2020-11-20 22:28:34,2,Test Chop
-SDeLateur,2020-11-20 22:37:08,-5,$5 1hr late reg/rebuy Top 2 chop
-SDeLateur,2020-11-20 23:09:58,-5,$5 1hr late reg/rebuy Top 2 chop rebuy
-SDeLateur,2020-11-25 22:03:54,-5,$5 1hr reg/rebuy no chop
-SDeLateur,2020-11-25 22:04:57,5,$5 1hr reg/rebuy no chop
-SDeLateur,2020-11-25 22:05:02,-5,Original $5 Tourney
-SDeLateur,2020-11-25 22:21:33,-5,Original $5 Tourney rebuy
-SDeLateur,2020-11-25 23:37:43,35.75,Original $5 Tourney
-SDeLateur,2020-11-25 23:40:55,-5,$5 1hr reg/rebuy no chop
 SDeLateur,2020-11-24 00:11:45,15,$5 Deep Stack (3x starting chips
-SDeLateur,2020-11-17 00:06:34,-5,$5 Tournament rebuy
-SDeLateur,2020-11-17 00:14:33,-5,$5 Tournament rebuy
-SDeLateur,2020-11-17 23:01:30,-5,$5 Tournament
-KOThompson,2020-11-26 00:24:21,-5,$5 1hr reg/rebuy no chop rebuy
-KOThompson,2020-11-11 22:01:58,-5,$5 Tournament
-KOThompson,2020-11-15 00:36:07,32.5,$5 Tournament
-KOThompson,2020-11-15 00:37:39,-5,$5 Tournament
-KOThompson,2020-11-21 00:16:27,-5,Another $5 tourney
-KOThompson,2020-11-21 00:53:58,-5,$5 1hr late reg/rebuy Top 2 chop
-KOThompson,2020-11-13 23:59:03,-5,$5 Tournament
-KOThompson,2020-11-14 01:07:21,12.25,$5 Tournament
-KOThompson,2020-11-14 01:08:18,-5,$5 Tournament
-KOThompson,2020-11-14 02:17:21,12.25,$5 Tournament
-KOThompson,2020-11-14 23:23:12,-5,$5 Tournament
-KOThompson,2020-11-14 23:57:40,-5,$5 Tournament rebuy
-KOThompson,2020-11-19 22:41:18,-5,1hr Rebuys/Regist Top 2 Chop
-KOThompson,2020-11-19 22:47:38,5,1hr Rebuys/Regist Top 2 Chop
-KOThompson,2020-11-19 22:47:51,-5,1hr Rebuys/Regist Top 2 Chop
-KOThompson,2020-11-19 22:47:55,5,1hr Rebuys/Regist Top 2 Chop
-KOThompson,2020-11-19 22:58:27,-5,$5 1hr late reg/rebuy Top 2 chop
-KOThompson,2020-11-22 20:16:06,-5,Another $5 tourney
-KOThompson,2020-11-22 21:07:50,-5,$5 1hr late reg/rebuy Top 2 chop
-KOThompson,2020-11-22 21:53:03,-5,$5 1hr late reg/rebuy Top 2 chop rebuy
-KOThompson,2020-11-22 22:29:38,21,$5 1hr late reg/rebuy Top 2 chop
-KOThompson,2020-11-22 23:52:24,-5,Another $5 tourney
-KOThompson,2020-11-10 21:57:26,-5,$5 Tournament
-KOThompson,2020-11-18 00:17:46,15,$5 Tournament
-KOThompson,2020-11-25 22:05:12,-5,Original $5 Tourney
-KOThompson,2020-11-25 23:44:01,-5,$5 1hr reg/rebuy no chop
-KOThompson,2020-11-17 23:34:55,-5,$5 Tournament
-BigByteMe,2020-11-26 01:08:55,14,$5 1hr reg/rebuy no chop
-BigByteMe,2020-11-07 19:57:14,-5,$5 Tournament
-BigByteMe,2020-11-07 21:11:15,-5,$5 Tournament
-BigByteMe,2020-11-07 21:11:31,-5,Another $5 tourney
-BigByteMe,2020-11-07 21:22:26,15,Another $5 tourney
-BigByteMe,2020-11-07 21:25:06,5,$5 Tournament
-BigByteMe,2020-11-15 00:13:53,-5,$5 Tournament rebuy
-BigByteMe,2020-11-15 19:57:07,-5,$5 Tournament
-BigByteMe,2020-11-15 20:58:22,-5,$5 Tournament
-BigByteMe,2020-11-13 22:32:34,-5,$5 Tournament
-BigByteMe,2020-11-13 22:39:35,-5,$5 Tournament rebuy
-BigByteMe,2020-11-13 22:47:18,-5,$5 Tournament rebuy
-BigByteMe,2020-11-16 22:45:45,-5,$5 Tournament
-BigByteMe,2020-11-16 23:47:25,35,$5 Tournament
-BigByteMe,2020-11-16 23:49:14,-5,$5 Tournament
-BigByteMe,2020-11-14 00:26:06,-5,$5 Tournament
-BigByteMe,2020-11-14 01:09:31,-5,$5 Tournament
-BigByteMe,2020-11-14 01:16:48,-5,$5 Tournament rebuy
-BigByteMe,2020-11-14 02:17:21,22.75,$5 Tournament
-BigByteMe,2020-11-14 22:37:46,-5,$5 Tournament
-BigByteMe,2020-11-14 23:43:38,-5,$5 Tournament
-BigByteMe,2020-11-19 22:05:39,-5,1hr Rebuys/Regist Top 2 Chop
-BigByteMe,2020-11-19 22:45:49,-5,1hr Rebuys/Regist Top 2 Chop rebuy
-BigByteMe,2020-11-19 22:58:40,-5,$5 1hr late reg/rebuy Top 2 chop
-BigByteMe,2020-11-19 23:32:56,-5,$5 1hr late reg/rebuy Top 2 chop rebuy
-BigByteMe,2020-11-22 21:59:35,-5,$5 1hr late reg/rebuy Top 2 chop
-BigByteMe,2020-11-22 22:30:36,-5,Another $5 tourney
-BigByteMe,2020-11-10 22:00:18,-5,$5 Tournament
-BigByteMe,2020-11-18 00:18:25,-5,$5 Tournament
-BigByteMe,2020-11-18 00:18:35,-5,Top 2 Chop $5
-BigByteMe,2020-11-18 00:18:55,5,Top 2 Chop $5
-BigByteMe,2020-11-18 00:44:27,-5,$5 Tournament rebuy
-BigByteMe,2020-11-18 01:33:10,30,$5 Tournament
-BigByteMe,2020-11-18 23:07:00,-5,$5 Tournament
-BigByteMe,2020-11-18 23:48:19,-5,Top 2 Chop $5
-BigByteMe,2020-11-08 20:26:14,-5,$5 Tournament
-BigByteMe,2020-11-08 21:42:51,16.25,$5 Tournament
-BigByteMe,2020-11-08 21:43:19,-5,Another $5 tourney
-BigByteMe,2020-11-08 21:59:59,-5,Another $5 tourney rebuy
-BigByteMe,2020-11-08 23:17:49,12.25,Another $5 tourney
-BigByteMe,2020-11-20 00:21:15,30,$5 1hr late reg/rebuy Top 2 chop
-BigByteMe,2020-11-20 22:23:32,-1,Test Chop
-BigByteMe,2020-11-20 22:28:34,1,Test Chop
-BigByteMe,2020-11-20 22:32:56,-5,$5 1hr late reg/rebuy Top 2 chop
-BigByteMe,2020-11-20 22:59:47,-5,$5 1hr late reg/rebuy Top 2 chop rebuy
-BigByteMe,2020-11-20 23:58:32,19,$5 1hr late reg/rebuy Top 2 chop
-BigByteMe,2020-11-25 22:11:01,-5,Original $5 Tourney
-BigByteMe,2020-11-25 22:17:16,-5,Original $5 Tourney rebuy
-BigByteMe,2020-11-25 23:40:01,-5,$5 1hr reg/rebuy no chop
-BigByteMe,2020-11-24 22:09:08,-5,$5 1hr reg/rebuy no chop
-BigByteMe,2020-11-17 01:22:32,35,$5 Tournament
-BigByteMe,2020-11-17 23:36:39,-5,$5 Tournament
-MDeLateur,2020-11-26 01:08:55,26,$5 1hr reg/rebuy no chop
+MDeLateur,2020-11-29 00:06:01,-5,$5 1hr reg/rebuy no chop rebuy
+MDeLateur,2020-11-29 00:40:37,-5,$5 1hr reg/rebuy no chop
+MDeLateur,2020-11-29 20:10:43,-5,$5 1hr reg/rebuy no chop
 MDeLateur,2020-11-07 19:58:36,-5,$5 Tournament
 MDeLateur,2020-11-07 21:24:21,8.75,$5 Tournament
 MDeLateur,2020-11-07 21:25:13,-5,$5 Tournament
-MDeLateur,2020-11-15 00:42:07,-5,$5 Tournament
-MDeLateur,2020-11-15 19:57:23,-5,$5 Tournament
-MDeLateur,2020-11-15 20:58:39,-5,$5 Tournament
-MDeLateur,2020-11-15 21:34:07,-5,$5 Tournament rebuy
-MDeLateur,2020-11-13 22:28:57,-5,$5 Tournament
-MDeLateur,2020-11-13 23:49:14,26,$5 Tournament
-MDeLateur,2020-11-13 23:57:40,-5,$5 Tournament
-MDeLateur,2020-11-23 21:43:40,-5,Another $5 tourney
-MDeLateur,2020-11-23 22:14:28,-5,Another $5 tourney rebuy
-MDeLateur,2020-11-23 22:41:00,-5,Another $5 tourney
-MDeLateur,2020-11-23 22:41:18,5,Another $5 tourney
-MDeLateur,2020-11-23 22:42:32,-5,$5 Deep Stack (3x starting chips
-MDeLateur,2020-11-16 22:47:00,-5,$5 Tournament
-MDeLateur,2020-11-16 23:01:22,-5,$5 Tournament rebuy
-MDeLateur,2020-11-16 23:47:43,-5,$5 Tournament
 MDeLateur,2020-11-14 01:08:03,-5,$5 Tournament
+MDeLateur,2020-11-28 22:02:17,-5,$5 1hr reg/rebuy no chop
+MDeLateur,2020-11-28 23:38:45,-5,$5 1hr reg/rebuy no chop
+MDeLateur,2020-11-18 00:38:11,-5,$5 Tournament
+MDeLateur,2020-11-18 23:50:30,-5,Top 2 Chop $5
 MDeLateur,2020-11-19 22:01:37,-5,1hr Rebuys/Regist Top 2 Chop
 MDeLateur,2020-11-19 22:37:29,-5,1hr Rebuys/Regist Top 2 Chop rebuy
 MDeLateur,2020-11-19 23:00:56,17.5,1hr Rebuys/Regist Top 2 Chop
@@ -197,38 +130,121 @@ MDeLateur,2020-11-19 23:23:53,-5,$5 1hr late reg/rebuy Top 2 chop rebuy
 MDeLateur,2020-11-19 23:34:48,-5,$5 1hr late reg/rebuy Top 2 chop rebuy
 MDeLateur,2020-11-19 23:39:35,-5,$5 1hr late reg/rebuy Top 2 chop rebuy
 MDeLateur,2020-11-19 23:58:31,-5,$5 1hr late reg/rebuy Top 2 chop rebuy
+MDeLateur,2020-11-10 21:58:38,-5,$5 Tournament
+MDeLateur,2020-11-10 23:26:32,10.5,$5 Tournament
+MDeLateur,2020-11-15 00:42:07,-5,$5 Tournament
+MDeLateur,2020-11-15 19:57:23,-5,$5 Tournament
+MDeLateur,2020-11-15 20:58:39,-5,$5 Tournament
+MDeLateur,2020-11-15 21:34:07,-5,$5 Tournament rebuy
 MDeLateur,2020-11-22 20:38:37,-5,Another $5 tourney
 MDeLateur,2020-11-22 21:06:51,-5,$5 1hr late reg/rebuy Top 2 chop
 MDeLateur,2020-11-22 22:29:38,19,$5 1hr late reg/rebuy Top 2 chop
 MDeLateur,2020-11-22 22:30:02,-5,Another $5 tourney
 MDeLateur,2020-11-22 23:46:21,8.75,Another $5 tourney
-MDeLateur,2020-11-10 21:58:38,-5,$5 Tournament
-MDeLateur,2020-11-10 23:26:32,10.5,$5 Tournament
-MDeLateur,2020-11-18 00:38:11,-5,$5 Tournament
-MDeLateur,2020-11-18 23:50:30,-5,Top 2 Chop $5
-MDeLateur,2020-11-08 20:26:32,-5,$5 Tournament
-MDeLateur,2020-11-08 21:27:48,-5,Another $5 tourney
-MDeLateur,2020-11-08 23:17:49,22.75,Another $5 tourney
-MDeLateur,2020-11-08 23:20:43,-5,$5 Tournament
-MDeLateur,2020-11-08 23:21:50,5,$5 Tournament
+MDeLateur,2020-11-13 22:28:57,-5,$5 Tournament
+MDeLateur,2020-11-13 23:49:14,26,$5 Tournament
+MDeLateur,2020-11-13 23:57:40,-5,$5 Tournament
+MDeLateur,2020-11-17 00:16:47,-5,$5 Tournament rebuy
+MDeLateur,2020-11-16 22:47:00,-5,$5 Tournament
+MDeLateur,2020-11-16 23:01:22,-5,$5 Tournament rebuy
+MDeLateur,2020-11-16 23:47:43,-5,$5 Tournament
+MDeLateur,2020-11-27 22:50:41,-5,$5 1hr reg/rebuy no chop
+MDeLateur,2020-11-27 23:51:22,20,$5 1hr reg/rebuy no chop
+MDeLateur,2020-11-26 01:08:55,26,$5 1hr reg/rebuy no chop
 MDeLateur,2020-11-25 19:28:12,-5,$5 1hr reg/rebuy no chop
 MDeLateur,2020-11-25 19:58:30,-5,$5 1hr reg/rebuy no chop rebuy
 MDeLateur,2020-11-25 22:03:13,-5,Original $5 Tourney
 MDeLateur,2020-11-25 23:37:43,19.25,Original $5 Tourney
 MDeLateur,2020-11-25 23:39:17,-5,$5 1hr reg/rebuy no chop
-MDeLateur,2020-11-17 00:16:47,-5,$5 Tournament rebuy
-RDeLateur,2020-11-11 21:53:07,-5,$5 Tournament
-RDeLateur,2020-11-11 22:12:46,-5,$5 Tournament rebuy
+MDeLateur,2020-11-23 21:43:40,-5,Another $5 tourney
+MDeLateur,2020-11-23 22:14:28,-5,Another $5 tourney rebuy
+MDeLateur,2020-11-23 22:41:00,-5,Another $5 tourney
+MDeLateur,2020-11-23 22:41:18,5,Another $5 tourney
+MDeLateur,2020-11-23 22:42:32,-5,$5 Deep Stack (3x starting chips
+MDeLateur,2020-11-08 20:26:32,-5,$5 Tournament
+MDeLateur,2020-11-08 21:27:48,-5,Another $5 tourney
+MDeLateur,2020-11-08 23:17:49,22.75,Another $5 tourney
+MDeLateur,2020-11-08 23:20:43,-5,$5 Tournament
+MDeLateur,2020-11-08 23:21:50,5,$5 Tournament
+RDeLateur,2020-11-29 00:40:22,14,$5 1hr reg/rebuy no chop
+RDeLateur,2020-11-29 20:01:53,-5,$5 1hr late reg/rebuy Top 2 chop
+RDeLateur,2020-11-29 20:06:09,5,$5 1hr late reg/rebuy Top 2 chop
+RDeLateur,2020-11-29 20:10:34,-5,$5 1hr reg/rebuy no chop
+RDeLateur,2020-11-29 20:58:55,-5,$5 1hr reg/rebuy no chop rebuy
+RDeLateur,2020-11-29 21:38:11,25,$5 1hr reg/rebuy no chop
+RDeLateur,2020-11-29 21:38:22,-5,$5 1hr late reg/rebuy Top 2 chop
+RDeLateur,2020-11-29 21:41:14,5,$5 1hr late reg/rebuy Top 2 chop
+RDeLateur,2020-11-29 21:41:30,-5,$5 1hr reg/rebuy no chop
 RDeLateur,2020-11-07 19:53:07,-5,$5 Tournament
 RDeLateur,2020-11-07 20:45:35,-5,Another $5 tourney
 RDeLateur,2020-11-07 21:24:37,-5,$5 Tournament
 RDeLateur,2020-11-07 22:54:45,-5,$5 Tournament
 RDeLateur,2020-11-07 22:55:17,5,$5 Tournament
+RDeLateur,2020-11-14 00:14:05,-5,$5 Tournament
+RDeLateur,2020-11-14 01:07:21,22.75,$5 Tournament
+RDeLateur,2020-11-14 01:07:30,-5,Another $5 tourney
+RDeLateur,2020-11-14 01:08:09,-5,$5 Tournament
+RDeLateur,2020-11-14 01:08:12,5,Another $5 tourney
+RDeLateur,2020-11-14 01:15:21,-5,$5 Tournament rebuy
+RDeLateur,2020-11-14 22:36:51,-5,$5 Tournament
+RDeLateur,2020-11-14 23:04:45,-5,$5 Tournament rebuy
+RDeLateur,2020-11-14 23:32:11,-5,$5 Tournament
+RDeLateur,2020-11-28 22:02:34,-5,$5 1hr reg/rebuy no chop
+RDeLateur,2020-11-28 23:38:20,-5,$5 1hr reg/rebuy no chop
+RDeLateur,2020-11-18 00:18:38,-5,$5 Tournament
+RDeLateur,2020-11-18 01:34:02,-5,$5 Tournament
+RDeLateur,2020-11-18 01:34:52,5,$5 Tournament
+RDeLateur,2020-11-18 22:41:43,-5,$5 Tournament
+RDeLateur,2020-11-18 23:48:20,-5,Top 2 Chop $5
+RDeLateur,2020-11-18 23:48:44,5,Top 2 Chop $5
+RDeLateur,2020-11-18 23:49:24,-5,Top 2 Chop $5
+RDeLateur,2020-11-18 23:49:30,5,Top 2 Chop $5
+RDeLateur,2020-11-18 23:51:21,-5,Top 2 Chop $5
+RDeLateur,2020-11-19 00:01:04,-5,Top 2 Chop $5 rebuy
+RDeLateur,2020-11-19 21:55:37,-5,1hr Rebuys/Regist Top 2 Chop
+RDeLateur,2020-11-19 23:01:07,-5,$5 1hr late reg/rebuy Top 2 chop
+RDeLateur,2020-11-19 23:31:58,-5,$5 1hr late reg/rebuy Top 2 chop rebuy
+RDeLateur,2020-11-10 21:45:09,-5,$5 Tournament
+RDeLateur,2020-11-10 21:49:36,5,$5 Tournament
+RDeLateur,2020-11-10 21:54:26,-5,$5 Tournament
+RDeLateur,2020-11-10 23:20:32,-5,Another $5 tourney
+RDeLateur,2020-11-10 23:28:09,5,Another $5 tourney
+RDeLateur,2020-11-10 23:28:12,-5,Another $5 tourney
+RDeLateur,2020-11-10 23:28:20,5,Another $5 tourney
 RDeLateur,2020-11-15 00:07:12,-5,$5 Tournament rebuy
 RDeLateur,2020-11-15 00:11:59,-5,$5 Tournament rebuy
 RDeLateur,2020-11-15 19:30:11,-5,$5 Tournament
 RDeLateur,2020-11-15 19:48:03,-5,$5 Tournament rebuy
 RDeLateur,2020-11-15 20:58:35,-5,$5 Tournament
+RDeLateur,2020-11-20 22:39:26,-5,$5 1hr late reg/rebuy Top 2 chop
+RDeLateur,2020-11-20 23:07:24,-5,$5 1hr late reg/rebuy Top 2 chop rebuy
+RDeLateur,2020-11-20 23:58:32,21,$5 1hr late reg/rebuy Top 2 chop
+RDeLateur,2020-11-20 23:59:37,-5,$5 1hr late reg/rebuy Top 2 chop
+RDeLateur,2020-11-22 20:07:31,-5,$5 1hr late reg/rebuy Top 2 chop
+RDeLateur,2020-11-22 20:10:27,5,$5 1hr late reg/rebuy Top 2 chop
+RDeLateur,2020-11-22 20:10:51,-5,Another $5 tourney
+RDeLateur,2020-11-22 21:05:52,20,Another $5 tourney
+RDeLateur,2020-11-22 21:06:28,-5,$5 1hr late reg/rebuy Top 2 chop
+RDeLateur,2020-11-22 22:07:24,-5,$5 1hr late reg/rebuy Top 2 chop rebuy
+RDeLateur,2020-11-22 22:38:25,-5,Another $5 tourney
+RDeLateur,2020-11-22 23:46:21,16.25,Another $5 tourney
+RDeLateur,2020-11-22 23:46:31,-5,$5 1hr late reg/rebuy Top 2 chop
+RDeLateur,2020-11-22 23:51:13,5,$5 1hr late reg/rebuy Top 2 chop
+RDeLateur,2020-11-22 23:51:23,-5,Another $5 tourney
+RDeLateur,2020-11-13 22:29:39,-5,$5 Tournament
+RDeLateur,2020-11-13 23:23:14,-5,Another $5 tourney
+RDeLateur,2020-11-13 23:46:10,5,Another $5 tourney
+RDeLateur,2020-11-17 23:35:51,-5,$5 Tournament
+RDeLateur,2020-11-16 22:43:14,-5,$5 Tournament
+RDeLateur,2020-11-16 23:15:00,-5,$5 Tournament rebuy
+RDeLateur,2020-11-16 23:16:26,-5,$5 Tournament rebuy
+RDeLateur,2020-11-16 23:48:57,-5,$5 Tournament
+RDeLateur,2020-11-27 21:19:51,-5,$5 1hr reg/rebuy no chop
+RDeLateur,2020-11-27 21:44:10,-5,$5 1hr reg/rebuy no chop rebuy
+RDeLateur,2020-11-27 22:19:38,-5,$5 1hr reg/rebuy no chop rebuy
+RDeLateur,2020-11-27 23:00:33,-5,2nd $5 1hr reg/rebuy 2 chop
+RDeLateur,2020-11-27 23:01:15,-5,$5 1hr reg/rebuy no chop
+RDeLateur,2020-11-27 23:01:26,5,2nd $5 1hr reg/rebuy 2 chop
 RDeLateur,2020-11-21 00:02:55,5,$5 1hr late reg/rebuy Top 2 chop
 RDeLateur,2020-11-21 00:13:47,-5,$5 1hr late reg/rebuy Top 2 chop
 RDeLateur,2020-11-21 00:15:13,5,$5 1hr late reg/rebuy Top 2 chop
@@ -236,9 +252,13 @@ RDeLateur,2020-11-21 00:15:22,-5,Another $5 tourney
 RDeLateur,2020-11-21 00:53:36,10,Another $5 tourney
 RDeLateur,2020-11-21 00:53:47,-5,$5 1hr late reg/rebuy Top 2 chop
 RDeLateur,2020-11-21 02:02:13,18,$5 1hr late reg/rebuy Top 2 chop
-RDeLateur,2020-11-13 22:29:39,-5,$5 Tournament
-RDeLateur,2020-11-13 23:23:14,-5,Another $5 tourney
-RDeLateur,2020-11-13 23:46:10,5,Another $5 tourney
+RDeLateur,2020-11-11 21:53:07,-5,$5 Tournament
+RDeLateur,2020-11-11 22:12:46,-5,$5 Tournament rebuy
+RDeLateur,2020-11-25 19:27:12,-5,$5 1hr reg/rebuy no chop
+RDeLateur,2020-11-25 20:26:09,-5,$5 1hr reg/rebuy no chop rebuy
+RDeLateur,2020-11-25 20:28:40,19.5,$5 1hr reg/rebuy no chop
+RDeLateur,2020-11-25 22:12:39,-5,Original $5 Tourney
+RDeLateur,2020-11-25 22:17:18,-5,Original $5 Tourney rebuy
 RDeLateur,2020-11-23 20:25:43,-5,Another $5 tourney
 RDeLateur,2020-11-23 20:32:21,5,Another $5 tourney
 RDeLateur,2020-11-23 20:32:29,-5,$10 Deep Stack
@@ -251,50 +271,6 @@ RDeLateur,2020-11-23 21:49:45,5,$5 1hr late reg/rebuy Top 2 chop
 RDeLateur,2020-11-23 22:41:17,-5,Another $5 tourney
 RDeLateur,2020-11-23 22:41:47,5,Another $5 tourney
 RDeLateur,2020-11-23 22:42:13,-5,$5 Deep Stack (3x starting chips
-RDeLateur,2020-11-16 22:43:14,-5,$5 Tournament
-RDeLateur,2020-11-16 23:15:00,-5,$5 Tournament rebuy
-RDeLateur,2020-11-16 23:16:26,-5,$5 Tournament rebuy
-RDeLateur,2020-11-16 23:48:57,-5,$5 Tournament
-RDeLateur,2020-11-14 00:14:05,-5,$5 Tournament
-RDeLateur,2020-11-14 01:07:21,22.75,$5 Tournament
-RDeLateur,2020-11-14 01:07:30,-5,Another $5 tourney
-RDeLateur,2020-11-14 01:08:09,-5,$5 Tournament
-RDeLateur,2020-11-14 01:08:12,5,Another $5 tourney
-RDeLateur,2020-11-14 01:15:21,-5,$5 Tournament rebuy
-RDeLateur,2020-11-14 22:36:51,-5,$5 Tournament
-RDeLateur,2020-11-14 23:04:45,-5,$5 Tournament rebuy
-RDeLateur,2020-11-14 23:32:11,-5,$5 Tournament
-RDeLateur,2020-11-19 00:01:04,-5,Top 2 Chop $5 rebuy
-RDeLateur,2020-11-19 21:55:37,-5,1hr Rebuys/Regist Top 2 Chop
-RDeLateur,2020-11-19 23:01:07,-5,$5 1hr late reg/rebuy Top 2 chop
-RDeLateur,2020-11-19 23:31:58,-5,$5 1hr late reg/rebuy Top 2 chop rebuy
-RDeLateur,2020-11-22 20:07:31,-5,$5 1hr late reg/rebuy Top 2 chop
-RDeLateur,2020-11-22 20:10:27,5,$5 1hr late reg/rebuy Top 2 chop
-RDeLateur,2020-11-22 20:10:51,-5,Another $5 tourney
-RDeLateur,2020-11-22 21:05:52,20,Another $5 tourney
-RDeLateur,2020-11-22 21:06:28,-5,$5 1hr late reg/rebuy Top 2 chop
-RDeLateur,2020-11-22 22:07:24,-5,$5 1hr late reg/rebuy Top 2 chop rebuy
-RDeLateur,2020-11-22 22:38:25,-5,Another $5 tourney
-RDeLateur,2020-11-22 23:46:21,16.25,Another $5 tourney
-RDeLateur,2020-11-22 23:46:31,-5,$5 1hr late reg/rebuy Top 2 chop
-RDeLateur,2020-11-22 23:51:13,5,$5 1hr late reg/rebuy Top 2 chop
-RDeLateur,2020-11-22 23:51:23,-5,Another $5 tourney
-RDeLateur,2020-11-10 21:45:09,-5,$5 Tournament
-RDeLateur,2020-11-10 21:49:36,5,$5 Tournament
-RDeLateur,2020-11-10 21:54:26,-5,$5 Tournament
-RDeLateur,2020-11-10 23:20:32,-5,Another $5 tourney
-RDeLateur,2020-11-10 23:28:09,5,Another $5 tourney
-RDeLateur,2020-11-10 23:28:12,-5,Another $5 tourney
-RDeLateur,2020-11-10 23:28:20,5,Another $5 tourney
-RDeLateur,2020-11-18 00:18:38,-5,$5 Tournament
-RDeLateur,2020-11-18 01:34:02,-5,$5 Tournament
-RDeLateur,2020-11-18 01:34:52,5,$5 Tournament
-RDeLateur,2020-11-18 22:41:43,-5,$5 Tournament
-RDeLateur,2020-11-18 23:48:20,-5,Top 2 Chop $5
-RDeLateur,2020-11-18 23:48:44,5,Top 2 Chop $5
-RDeLateur,2020-11-18 23:49:24,-5,Top 2 Chop $5
-RDeLateur,2020-11-18 23:49:30,5,Top 2 Chop $5
-RDeLateur,2020-11-18 23:51:21,-5,Top 2 Chop $5
 RDeLateur,2020-11-08 20:45:06,-5,$5 Tournament
 RDeLateur,2020-11-08 21:27:49,-5,Another $5 tourney
 RDeLateur,2020-11-08 22:27:39,-5,Another $5 tourney
@@ -305,49 +281,137 @@ RDeLateur,2020-11-08 22:28:39,-5,$5 Tournament
 RDeLateur,2020-11-08 22:43:07,5,$5 Tournament
 RDeLateur,2020-11-08 22:43:10,-5,$5 Tournament
 RDeLateur,2020-11-08 22:43:16,5,$5 Tournament
-RDeLateur,2020-11-20 22:39:26,-5,$5 1hr late reg/rebuy Top 2 chop
-RDeLateur,2020-11-20 23:07:24,-5,$5 1hr late reg/rebuy Top 2 chop rebuy
-RDeLateur,2020-11-20 23:58:32,21,$5 1hr late reg/rebuy Top 2 chop
-RDeLateur,2020-11-20 23:59:37,-5,$5 1hr late reg/rebuy Top 2 chop
-RDeLateur,2020-11-25 19:27:12,-5,$5 1hr reg/rebuy no chop
-RDeLateur,2020-11-25 20:26:09,-5,$5 1hr reg/rebuy no chop rebuy
-RDeLateur,2020-11-25 20:28:40,19.5,$5 1hr reg/rebuy no chop
-RDeLateur,2020-11-25 22:12:39,-5,Original $5 Tourney
-RDeLateur,2020-11-25 22:17:18,-5,Original $5 Tourney rebuy
 RDeLateur,2020-11-24 22:08:11,-5,$5 1hr reg/rebuy no chop
 RDeLateur,2020-11-24 23:17:26,13,$5 1hr reg/rebuy no chop
-RDeLateur,2020-11-17 23:35:51,-5,$5 Tournament
+MattDeLateur,2020-11-29 21:53:02,-5,$5 1hr reg/rebuy no chop
+MattDeLateur,2020-11-29 22:10:17,-5,$5 1hr reg/rebuy no chop rebuy
 MattDeLateur,2020-11-07 19:57:52,-5,$5 Tournament
 MattDeLateur,2020-11-07 20:48:35,-5,Another $5 tourney
-MattDeLateur,2020-11-13 22:28:30,-5,$5 Tournament
 MattDeLateur,2020-11-14 22:36:56,-5,$5 Tournament
 MattDeLateur,2020-11-14 23:43:12,30,$5 Tournament
 MattDeLateur,2020-11-14 23:44:01,-5,$5 Tournament
+MattDeLateur,2020-11-28 23:38:44,-5,$5 1hr reg/rebuy no chop
+MattDeLateur,2020-11-18 23:14:52,-5,$5 Tournament
+MattDeLateur,2020-11-18 23:50:13,-5,Top 2 Chop $5
 MattDeLateur,2020-11-19 00:45:19,15,Top 2 Chop $5
 MattDeLateur,2020-11-19 21:59:28,-5,1hr Rebuys/Regist Top 2 Chop
 MattDeLateur,2020-11-19 23:00:56,17.5,1hr Rebuys/Regist Top 2 Chop
+MattDeLateur,2020-11-10 21:59:42,-5,$5 Tournament
+MattDeLateur,2020-11-20 22:24:33,-1,Test Chop
+MattDeLateur,2020-11-20 22:35:17,-5,$5 1hr late reg/rebuy Top 2 chop
+MattDeLateur,2020-11-20 23:14:44,-5,$5 1hr late reg/rebuy Top 2 chop rebuy
 MattDeLateur,2020-11-22 20:09:14,-5,$5 1hr late reg/rebuy Top 2 chop
 MattDeLateur,2020-11-22 20:10:27,5,$5 1hr late reg/rebuy Top 2 chop
 MattDeLateur,2020-11-22 20:11:00,-5,Another $5 tourney
 MattDeLateur,2020-11-22 21:06:32,-5,$5 1hr late reg/rebuy Top 2 chop
 MattDeLateur,2020-11-22 21:45:21,-5,$5 1hr late reg/rebuy Top 2 chop rebuy
 MattDeLateur,2020-11-22 22:31:06,-5,Another $5 tourney
-MattDeLateur,2020-11-10 21:59:42,-5,$5 Tournament
-MattDeLateur,2020-11-18 23:14:52,-5,$5 Tournament
-MattDeLateur,2020-11-18 23:50:13,-5,Top 2 Chop $5
-MattDeLateur,2020-11-08 20:26:59,-5,$5 Tournament
-MattDeLateur,2020-11-08 21:43:17,-5,Another $5 tourney
-MattDeLateur,2020-11-08 21:48:47,-5,Another $5 tourney rebuy
-MattDeLateur,2020-11-20 22:24:33,-1,Test Chop
-MattDeLateur,2020-11-20 22:35:17,-5,$5 1hr late reg/rebuy Top 2 chop
-MattDeLateur,2020-11-20 23:14:44,-5,$5 1hr late reg/rebuy Top 2 chop rebuy
+MattDeLateur,2020-11-13 22:28:30,-5,$5 Tournament
+MattDeLateur,2020-11-27 21:20:31,-5,$5 1hr reg/rebuy no chop
 MattDeLateur,2020-11-25 19:27:41,-5,$5 1hr reg/rebuy no chop
 MattDeLateur,2020-11-25 20:28:40,10.5,$5 1hr reg/rebuy no chop
 MattDeLateur,2020-11-25 22:14:54,-5,Original $5 Tourney
 MattDeLateur,2020-11-25 22:19:01,-5,Original $5 Tourney rebuy
 MattDeLateur,2020-11-25 23:41:26,-5,$5 1hr reg/rebuy no chop
+MattDeLateur,2020-11-08 20:26:59,-5,$5 Tournament
+MattDeLateur,2020-11-08 21:43:17,-5,Another $5 tourney
+MattDeLateur,2020-11-08 21:48:47,-5,Another $5 tourney rebuy
 MattDeLateur,2020-11-24 22:09:34,-5,$5 1hr reg/rebuy no chop
 MattDeLateur,2020-11-24 23:17:26,7,$5 1hr reg/rebuy no chop
+BigByteMe,2020-11-07 19:57:14,-5,$5 Tournament
+BigByteMe,2020-11-07 21:11:15,-5,$5 Tournament
+BigByteMe,2020-11-07 21:11:31,-5,Another $5 tourney
+BigByteMe,2020-11-07 21:22:26,15,Another $5 tourney
+BigByteMe,2020-11-07 21:25:06,5,$5 Tournament
+BigByteMe,2020-11-14 00:26:06,-5,$5 Tournament
+BigByteMe,2020-11-14 01:09:31,-5,$5 Tournament
+BigByteMe,2020-11-14 01:16:48,-5,$5 Tournament rebuy
+BigByteMe,2020-11-14 02:17:21,22.75,$5 Tournament
+BigByteMe,2020-11-14 22:37:46,-5,$5 Tournament
+BigByteMe,2020-11-14 23:43:38,-5,$5 Tournament
+BigByteMe,2020-11-28 22:02:35,-5,$5 Deep 9K 2 Chop 1hr reg/0.5hr rebuy
+BigByteMe,2020-11-28 22:02:40,5,$5 Deep 9K 2 Chop 1hr reg/0.5hr rebuy
+BigByteMe,2020-11-28 22:02:46,-5,$5 1hr reg/rebuy no chop
+BigByteMe,2020-11-28 22:31:17,-5,$5 1hr reg/rebuy no chop rebuy
+BigByteMe,2020-11-28 22:48:01,-5,$5 1hr reg/rebuy no chop rebuy
+BigByteMe,2020-11-28 23:36:47,25,$5 1hr reg/rebuy no chop
+BigByteMe,2020-11-28 23:39:00,-5,$5 1hr reg/rebuy no chop
+BigByteMe,2020-11-28 23:48:22,-5,$5 1hr reg/rebuy no chop rebuy
+BigByteMe,2020-11-18 00:18:25,-5,$5 Tournament
+BigByteMe,2020-11-18 00:18:35,-5,Top 2 Chop $5
+BigByteMe,2020-11-18 00:18:55,5,Top 2 Chop $5
+BigByteMe,2020-11-18 00:44:27,-5,$5 Tournament rebuy
+BigByteMe,2020-11-18 01:33:10,30,$5 Tournament
+BigByteMe,2020-11-18 23:07:00,-5,$5 Tournament
+BigByteMe,2020-11-18 23:48:19,-5,Top 2 Chop $5
+BigByteMe,2020-11-19 22:05:39,-5,1hr Rebuys/Regist Top 2 Chop
+BigByteMe,2020-11-19 22:45:49,-5,1hr Rebuys/Regist Top 2 Chop rebuy
+BigByteMe,2020-11-19 22:58:40,-5,$5 1hr late reg/rebuy Top 2 chop
+BigByteMe,2020-11-19 23:32:56,-5,$5 1hr late reg/rebuy Top 2 chop rebuy
+BigByteMe,2020-11-10 22:00:18,-5,$5 Tournament
+BigByteMe,2020-11-15 00:13:53,-5,$5 Tournament rebuy
+BigByteMe,2020-11-15 19:57:07,-5,$5 Tournament
+BigByteMe,2020-11-15 20:58:22,-5,$5 Tournament
+BigByteMe,2020-11-20 00:21:15,30,$5 1hr late reg/rebuy Top 2 chop
+BigByteMe,2020-11-20 22:23:32,-1,Test Chop
+BigByteMe,2020-11-20 22:28:34,1,Test Chop
+BigByteMe,2020-11-20 22:32:56,-5,$5 1hr late reg/rebuy Top 2 chop
+BigByteMe,2020-11-20 22:59:47,-5,$5 1hr late reg/rebuy Top 2 chop rebuy
+BigByteMe,2020-11-20 23:58:32,19,$5 1hr late reg/rebuy Top 2 chop
+BigByteMe,2020-11-22 21:59:35,-5,$5 1hr late reg/rebuy Top 2 chop
+BigByteMe,2020-11-22 22:30:36,-5,Another $5 tourney
+BigByteMe,2020-11-13 22:32:34,-5,$5 Tournament
+BigByteMe,2020-11-13 22:39:35,-5,$5 Tournament rebuy
+BigByteMe,2020-11-13 22:47:18,-5,$5 Tournament rebuy
+BigByteMe,2020-11-17 01:22:32,35,$5 Tournament
+BigByteMe,2020-11-17 23:36:39,-5,$5 Tournament
+BigByteMe,2020-11-16 22:45:45,-5,$5 Tournament
+BigByteMe,2020-11-16 23:47:25,35,$5 Tournament
+BigByteMe,2020-11-16 23:49:14,-5,$5 Tournament
+BigByteMe,2020-11-27 21:19:36,-5,$5 1hr late reg/rebuy Top 2 chop
+BigByteMe,2020-11-27 21:20:05,-5,$5 1hr reg/rebuy no chop
+BigByteMe,2020-11-27 21:20:10,5,$5 1hr late reg/rebuy Top 2 chop
+BigByteMe,2020-11-27 22:05:03,-5,$5 1hr reg/rebuy no chop rebuy
+BigByteMe,2020-11-27 22:16:05,-5,$5 1hr reg/rebuy no chop rebuy
+BigByteMe,2020-11-27 22:19:36,-5,$5 1hr reg/rebuy no chop rebuy
+BigByteMe,2020-11-27 23:00:27,15.75,$5 1hr reg/rebuy no chop
+BigByteMe,2020-11-26 01:08:55,14,$5 1hr reg/rebuy no chop
+BigByteMe,2020-11-25 22:11:01,-5,Original $5 Tourney
+BigByteMe,2020-11-25 22:17:16,-5,Original $5 Tourney rebuy
+BigByteMe,2020-11-25 23:40:01,-5,$5 1hr reg/rebuy no chop
+BigByteMe,2020-11-08 20:26:14,-5,$5 Tournament
+BigByteMe,2020-11-08 21:42:51,16.25,$5 Tournament
+BigByteMe,2020-11-08 21:43:19,-5,Another $5 tourney
+BigByteMe,2020-11-08 21:59:59,-5,Another $5 tourney rebuy
+BigByteMe,2020-11-08 23:17:49,12.25,Another $5 tourney
+BigByteMe,2020-11-24 22:09:08,-5,$5 1hr reg/rebuy no chop
+KOThompson,2020-11-14 01:07:21,12.25,$5 Tournament
+KOThompson,2020-11-14 01:08:18,-5,$5 Tournament
+KOThompson,2020-11-14 02:17:21,12.25,$5 Tournament
+KOThompson,2020-11-14 23:23:12,-5,$5 Tournament
+KOThompson,2020-11-14 23:57:40,-5,$5 Tournament rebuy
+KOThompson,2020-11-18 00:17:46,15,$5 Tournament
+KOThompson,2020-11-19 22:41:18,-5,1hr Rebuys/Regist Top 2 Chop
+KOThompson,2020-11-19 22:47:38,5,1hr Rebuys/Regist Top 2 Chop
+KOThompson,2020-11-19 22:47:51,-5,1hr Rebuys/Regist Top 2 Chop
+KOThompson,2020-11-19 22:47:55,5,1hr Rebuys/Regist Top 2 Chop
+KOThompson,2020-11-19 22:58:27,-5,$5 1hr late reg/rebuy Top 2 chop
+KOThompson,2020-11-10 21:57:26,-5,$5 Tournament
+KOThompson,2020-11-15 00:36:07,32.5,$5 Tournament
+KOThompson,2020-11-15 00:37:39,-5,$5 Tournament
+KOThompson,2020-11-22 20:16:06,-5,Another $5 tourney
+KOThompson,2020-11-22 21:07:50,-5,$5 1hr late reg/rebuy Top 2 chop
+KOThompson,2020-11-22 21:53:03,-5,$5 1hr late reg/rebuy Top 2 chop rebuy
+KOThompson,2020-11-22 22:29:38,21,$5 1hr late reg/rebuy Top 2 chop
+KOThompson,2020-11-22 23:52:24,-5,Another $5 tourney
+KOThompson,2020-11-13 23:59:03,-5,$5 Tournament
+KOThompson,2020-11-17 23:34:55,-5,$5 Tournament
+KOThompson,2020-11-26 00:24:21,-5,$5 1hr reg/rebuy no chop rebuy
+KOThompson,2020-11-21 00:16:27,-5,Another $5 tourney
+KOThompson,2020-11-21 00:53:58,-5,$5 1hr late reg/rebuy Top 2 chop
+KOThompson,2020-11-11 22:01:58,-5,$5 Tournament
+KOThompson,2020-11-25 22:05:12,-5,Original $5 Tourney
+KOThompson,2020-11-25 23:44:01,-5,$5 1hr reg/rebuy no chop
 GrossR,2020-11-25 19:27:35,-5,$5 1hr reg/rebuy no chop
 GrossR,2020-11-25 22:05:39,-5,Original $5 Tourney
 GrossR,2020-11-24 22:12:10,-5,$5 1hr reg/rebuy no chop

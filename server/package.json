@@ -45,6 +45,7 @@
     "pug": "^3.0.0",
     "redis": "^3.0.2",
     "supertest": "^5.0.0",
+    "yargs": "^16.1.1",
     "yn": "^4.0.0"
   },
   "devDependencies": {

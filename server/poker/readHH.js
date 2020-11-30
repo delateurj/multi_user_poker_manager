@@ -1,5 +1,7 @@
 const { forEach } = require("p-iteration");
 
+const argv = require("yargs/yargs")(process.argv.slice(2)).argv;
+
 const getHHList = require("./mavensAPI").getHHList;
 const getHH = require("./mavensAPI").getHH;
 
@@ -200,7 +202,7 @@ function processActionSection(hand, actionType, actionSection) {
     });
   });
 }
-async function processHH() {
+async function processHH(startDate = false, endDate = false) {
   try {
     let HHList = await getHHList();
     let output = "";
@@ -213,14 +215,27 @@ async function processHH() {
     let dataLinesWithBlanks = [];
     let dataLines = [];
     for (const [index, logDate] of logDateList.entries()) {
-      let response = await getHH(logDate, HHList.Name[index]);
-      // console.log(" first line", response.Data[0]);
-      //Note that tournaments and hands can span over files since a new
-      //file is created each day (server time)
-      //We'll handle that with brute force by just combining all the files
-      //but may be an issue with large number of files.  In that case some more
-      //logic will be needed
-      dataLinesWithBlanks = dataLinesWithBlanks.concat(response.Data);
+      if (
+        (startDate ? logDate >= startDate : true) &&
+        (endDate ? logDate <= endDate : true)
+      ) {
+        console.log(
+          "Getting:",
+          startDate,
+          endDate,
+          logDate,
+          HHList.Name[index]
+        );
+        let response = await getHH(logDate, HHList.Name[index]);
+
+        // console.log(" first line", response.Data[0]);
+        //Note that tournaments and hands can span over files since a new
+        //file is created each day (server time)
+        //We'll handle that with brute force by just combining all the files
+        //but may be an issue with large number of files.  In that case some more
+        //logic will be needed
+        dataLinesWithBlanks = dataLinesWithBlanks.concat(response.Data);
+      }
     }
 
     //Need to strip out all blank lines that resolve to undefined.
@@ -232,8 +247,9 @@ async function processHH() {
     );
 
     let thisHandStartLine = nextHandStartLine;
-
+    let handCount = 0;
     while (thisHandStartLine > 0) {
+      handCount++;
       let nextHandStartSubIndex = dataLines
         .slice(thisHandStartLine + 1)
         .findIndex((element, index) => {
@@ -259,6 +275,7 @@ async function processHH() {
       let handNumberStart = handInfoLine.indexOf("#") + 1;
       let handNumberEnd = handInfoLine.indexOf(" ", handNumberStart);
       let handNumber = handInfoLine.slice(handNumberStart, handNumberEnd);
+      console.log(handCount, handNumber);
 
       let handDateTimeStart = handInfoLine.indexOf(" - ") + 3;
       let handDateTime = handInfoLine.slice(handDateTimeStart);
@@ -270,6 +287,7 @@ async function processHH() {
       let smallBlind = gameInfo.slice(smallBlindStart, smallBlindEnd);
 
       let bigBlind = gameInfo.slice(smallBlindEnd + 1);
+      console.log(handDateTime);
 
       let hand = {
         handNumber,
@@ -278,6 +296,7 @@ async function processHH() {
         smallBlind,
         bigBlind,
         players: [],
+        rawText: handLines,
       };
 
       let playersSection = handLines.slice(
@@ -382,8 +401,6 @@ async function processHH() {
       let gameEnd = boardLine.slice(gameEndStart);
       hand.gameEnd = gameEnd;
 
-      console.log(hand.handNumber);
-
       let summaryResultsSection = handLines.slice(
         sectionIndexes.summaryResultsSectionStart,
         handLines.length
@@ -418,7 +435,7 @@ async function processHH() {
 
       thisHandStartLine = nextHandStartLine;
     }
-    hands.reverse().forEach((theHand) => {
+    /* hands.reverse().forEach((theHand) => {
       console.log(theHand.handNumber);
       console.log(theHand.handDateTime);
       console.log(theHand.gameInfo);
@@ -441,11 +458,14 @@ async function processHH() {
         console.log("Summary value change", player.valueChange);
         console.log("Hole Cards", player.holeCards);
       });
-    });
+      console.log(hands[0].rawText);
+      console.log(hands[hands.length - 1]);
+      console.log("Total # of hands:", hands.length);
+    }); */
   } catch (err) {
     console.log(err);
   }
 }
 exports.processHH = processHH;
 
-processHH();
+processHH(argv.start, argv.end);

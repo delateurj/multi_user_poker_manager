@@ -6,20 +6,19 @@ async function processTournaments() {
   let tournaments = [];
 
   try {
+    /* let dataLines = await fs.readFile("dataLines.txt", "utf8");
 
-    let dataLines = await fs.readFile("dataLines.txt", 'utf8');
-
-    dataLines = dataLines.split("\n");
+    dataLines = dataLines.split("\n"); */
 
     let tournamentList = await getTournamentList();
     let output = "";
     let tournamentDateList = tournamentList.Date;
 
     /*** Uncomment following line FOR TESTING JUST DO FIRST FILE */
-    /*   tournamentDateList = ["2020-10-10"];
-    tournamentList.Name = ["$1 Tournament"];
- */
-    /* let dataLinesWithBlanks = [];
+    /*    tournamentDateList = ["2020-10-10"];
+    tournamentList.Name = ["$1 Tournament"]; */
+
+    let dataLinesWithBlanks = [];
     for (const [index, logDate] of tournamentDateList.entries()) {
       if (logDate > "2020-11-06") {
         console.log(logDate, tournamentList.Name[index]);
@@ -32,11 +31,13 @@ async function processTournaments() {
         //logic will be needed
         dataLinesWithBlanks = dataLinesWithBlanks.concat(response.Data);
       }
-    } */
+    }
 
     //Need to strip out all blank lines that resolve to undefined.
     //Otherwise functions like .includes will fail
-    //dataLines = dataLinesWithBlanks.filter((el) => el !== undefined);
+    let dataLines = dataLinesWithBlanks.filter((el) => el !== undefined);
+
+    console.log(dataLines);
 
     /*  fs.writeFile("dataLines.txt", dataLines.join("\n"), (err) => {
        if (err) {
@@ -158,6 +159,7 @@ async function processTournaments() {
         stopOnChop,
         players,
         tournamentCheckSum,
+        rawText: tournamentLines,
       });
 
       thisTournamentLine = nextTournamentLine;
@@ -299,6 +301,9 @@ async function processTournaments() {
         sortedKnockedOut[0][0];
       csvFile += "\n";
     });
+
+    console.log("Number Of Tournaments:", tournaments.length);
+    console.log(tournaments[tournaments.length - 1].rawText);
 
     fs.writeFile("resultsWithDetails.csv", csvFile, (err) => {
       if (err) {
