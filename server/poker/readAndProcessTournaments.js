@@ -2,7 +2,7 @@ const getTournamentList = require("./mavensAPI").getTournamentList;
 const getTournament = require("./mavensAPI").getTournament;
 const fs = require("fs").promises;
 
-async function processTournaments() {
+async function readAndProcessTournaments() {
   let tournaments = [];
 
   try {
@@ -314,4 +314,4 @@ async function processTournaments() {
     console.log(err);
   }
 }
-processTournaments();
+readAndProcessTournaments();
