@@ -2,48 +2,73 @@ const getTournamentList = require("./mavensAPI").getTournamentList;
 const getTournament = require("./mavensAPI").getTournament;
 const fs = require("fs").promises;
 
-async function readAndProcessTournaments() {
+async function readAndProcessTournaments(
+  startDate = undefined,
+  endDate = undefined,
+  useLocal = false
+) {
   let tournaments = [];
 
   try {
-    /* let dataLines = await fs.readFile("dataLines.txt", "utf8");
-
-    dataLines = dataLines.split("\n"); */
-
-    let tournamentList = await getTournamentList();
-    let output = "";
-    let tournamentDateList = tournamentList.Date;
-
-    /*** Uncomment following line FOR TESTING JUST DO FIRST FILE */
-    /*    tournamentDateList = ["2020-10-10"];
-    tournamentList.Name = ["$1 Tournament"]; */
-
-    let dataLinesWithBlanks = [];
-    for (const [index, logDate] of tournamentDateList.entries()) {
-      if (logDate > "2020-11-06") {
-        console.log(logDate, tournamentList.Name[index]);
-        let response = await getTournament(logDate, tournamentList.Name[index]);
-        // console.log(" first line", response.Data[0]);
-        //Note that tournaments and hands can span over files since a new
-        //file is created each day (server time)
-        //We'll handle that with brute force by just combining all the files
-        //but may be an issue with large number of files.  In that case some more
-        //logic will be needed
-        dataLinesWithBlanks = dataLinesWithBlanks.concat(response.Data);
+    if (
+      useLocal &&
+      fsNotPromises.existsSync(
+        startDate + "_" + endDate + "_" + "tournamentDataLines.txt"
+      )
+    ) {
+      console.log(
+        "Using local file:",
+        startDate + "_" + endDate + "_" + "tournamentDataLines.txt"
+      );
+      try {
+        dataLines = await fs.readFile(
+          startDate + "_" + endDate + "_" + "tournamentDataLines.txt",
+          "utf8"
+        );
+        dataLines = dataLines.split("\n");
+      } catch (err) {
+        console.log(err);
       }
+    } else {
+      console.log("Pulling data from PM server");
+      let tournamentList = await getTournamentList();
+      let output = "";
+      let tournamentDateList = tournamentList.Date;
+      let dataLinesWithBlanks = [];
+      for (const [index, logDate] of tournamentDateList.entries()) {
+        if (
+          (startDate ? logDate >= startDate : true) &&
+          (endDate ? logDate <= endDate : true)
+        ) {
+          console.log("Getting", logDate, tournamentList.Name[index]);
+          let response = await getTournament(
+            logDate,
+            tournamentList.Name[index]
+          );
+          // console.log(" first line", response.Data[0]);
+          //Note that tournaments and hands can span over files since a new
+          //file is created each day (server time)
+          //We'll handle that with brute force by just combining all the files
+          //but may be an issue with large number of files.  In that case some more
+          //logic will be needed
+          dataLinesWithBlanks = dataLinesWithBlanks.concat(response.Data);
+        }
+      }
+
+      //Need to strip out all blank lines that resolve to undefined.
+      //Otherwise functions like .includes will fail
+      dataLines = dataLinesWithBlanks.filter((el) => el !== undefined);
+
+      fs.writeFile(
+        startDate + "_" + endDate + "_" + "tournamentDataLines.txt",
+        dataLines.join("\n"),
+        (err) => {
+          if (err) {
+            console.log(err);
+          }
+        }
+      );
     }
-
-    //Need to strip out all blank lines that resolve to undefined.
-    //Otherwise functions like .includes will fail
-    let dataLines = dataLinesWithBlanks.filter((el) => el !== undefined);
-
-    console.log(dataLines);
-
-    /*  fs.writeFile("dataLines.txt", dataLines.join("\n"), (err) => {
-       if (err) {
-         console.log(err);
-       }
-     }); */
 
     let nextTournamentLine = dataLines.findIndex((element) =>
       element.includes("Tournament=")
@@ -286,6 +311,9 @@ async function readAndProcessTournaments() {
       );
       if (sortedKnockedOut[0] === undefined) {
         sortedKnockedOut = [["No one", 0]];
+      }
+      if (sortedKnockedOutBy[0] === undefined) {
+        sortedKnockedOutBy = [["No one", 0]];
       }
       csvFile +=
         nextPlayer.name +
