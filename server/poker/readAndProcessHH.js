@@ -379,7 +379,10 @@ function findPlayersBiggestLoss(player) {
   let biggestLossHand = undefined;
   player.hands.length > 0 ? (biggestLossHand = player.hands[0]) : 0;
   player.hands.forEach((playerHand) => {
-    if (biggestLossHand.valueChange > playerHand.valueChange) {
+    if (
+      biggestLossHand.valueChange / biggestLossHand.startingStack >
+      playerHand.valueChange / playerHand.startingStack
+    ) {
       console.log(
         "Even worse",
         biggestLossHand.valueChange,
