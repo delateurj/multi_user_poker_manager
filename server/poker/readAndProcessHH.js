@@ -140,14 +140,19 @@ async function readAndProcessHH(
 
       let smallBlindStart = gameInfo.indexOf("Blinds ") + 7;
       let smallBlindEnd = gameInfo.indexOf("/", smallBlindStart);
-      let smallBlind = gameInfo.slice(smallBlindStart, smallBlindEnd);
+      let smallBlind = parseInt(gameInfo.slice(smallBlindStart, smallBlindEnd));
 
-      let bigBlind = gameInfo.slice(smallBlindEnd + 1);
+      let bigBlindEnd = gameInfo.indexOf(" ", smallBlindEnd);
+      let bigBlind = parseInt(gameInfo.slice(smallBlindEnd + 1, bigBlindEnd));
+
+      let anteStart = gameInfo.indexOf("Ante", bigBlindEnd);
+      let ante = anteStart > -1 ? parseInt(gameInfo.slice(anteStart + 5)) : 0;
 
       let hand = {
         handNumber,
         handDateTime,
         gameInfo,
+        ante,
         smallBlind,
         bigBlind,
         players: [],
@@ -278,7 +283,7 @@ async function readAndProcessHH(
                 valueChangeStart,
                 valueChangeEnd + 1
               );
-              player.valueChange = valueChange;
+              player.valueChange = parseInt(valueChange);
               let holeCardsStart = line.indexOf("[") + 1;
               let holeCardsEnd = line.indexOf("]") - 1;
               let holeCards = line
@@ -308,9 +313,6 @@ async function readAndProcessHH(
         }
       }
     });
-    console.log("Number of hands:", hands.length);
-    console.log("Number of flops:", numberOfFlops);
-    console.log("Number of pair flops:", numberOfPairedFlops);
     if (false) {
       hands.reverse().forEach((theHand) => {
         console.log(theHand.handNumber);
@@ -359,7 +361,9 @@ function playersFromHands(hands) {
           playerIndex = index;
         }
       });
+
       let { name, ...thisHand } = playerInHand;
+      thisHand.hand = hand;
       if (playerIndex === -1) {
         players.push({ name: playerInHand.name, hands: [thisHand] });
       } else {
@@ -370,6 +374,22 @@ function playersFromHands(hands) {
 
   return players;
 }
+
+function findPlayersBiggestLoss(player) {
+  let biggestLossHand = undefined;
+  player.hands.length > 0 ? (biggestLossHand = player.hands[0]) : 0;
+  player.hands.forEach((playerHand) => {
+    if (biggestLossHand.valueChange > playerHand.valueChange) {
+      console.log(
+        "Even worse",
+        biggestLossHand.valueChange,
+        playerHand.valueChange
+      );
+      biggestLossHand = playerHand;
+    }
+  });
+  console.log("Worse hand", biggestLossHand);
+}
 function toggleLog() {
   if (arguments[0] === true) {
     console.log(Object.values(arguments).slice(1).join(""));
@@ -379,8 +399,7 @@ function toggleLog() {
 async function test() {
   let hands = await readAndProcessHH(argv.start, argv.end, argv.useLocal);
   let players = playersFromHands(hands);
-  console.log(players);
-  console.log(players[0].hands);
+  findPlayersBiggestLoss(players[0]);
 }
 
 //8355
