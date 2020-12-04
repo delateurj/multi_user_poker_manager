@@ -213,48 +213,93 @@ async function readAndProcessTournaments(
     }
 
     let players = [];
+    let highRollers = [];
 
     tournaments.forEach((tournament) => {
-      tournament.players.forEach((player) => {
-        indexOfPlayer = players.findIndex(
-          (nextPlayer) => nextPlayer.name === player.name
-        );
-        if (indexOfPlayer === -1) {
-          players.push({
-            name: player.name,
-            tournaments: [],
-            totalWinnings: 0,
-            knockedOutBy: {},
-            knockedOut: {},
-            totalKnockOuts: 0,
-          });
-          indexOfPlayer = players.length - 1;
-        }
-        currentPlayer = players[indexOfPlayer];
-        currentPlayer.tournaments.push(tournament);
-        currentPlayer.totalWinnings += player.net;
-        tournament.players.forEach((nextPlayer) => {
-          if (nextPlayer.name === currentPlayer.name) {
-            if (currentPlayer.name !== nextPlayer.knockedOutBy) {
-              if (
-                currentPlayer.knockedOutBy[nextPlayer.knockedOutBy] ===
-                undefined
-              ) {
-                currentPlayer.knockedOutBy[nextPlayer.knockedOutBy] = 1;
-              } else {
-                currentPlayer.knockedOutBy[nextPlayer.knockedOutBy] += 1;
-              }
-            }
-          } else if (nextPlayer.knockedOutBy === currentPlayer.name) {
-            if (currentPlayer.knockedOut[nextPlayer.name] === undefined) {
-              currentPlayer.knockedOut[nextPlayer.name] = 1;
-            } else {
-              currentPlayer.knockedOut[nextPlayer.name] += 1;
-            }
-            currentPlayer.totalKnockOuts += 1;
+      console.log(tournament.buyIn, tournament.buyIn > 5);
+      if (parseInt(tournament.buyIn) > 5) {
+        tournament.players.forEach((player) => {
+          indexOfPlayer = highRollers.findIndex(
+            (nextPlayer) => nextPlayer.name === player.name
+          );
+          if (indexOfPlayer === -1) {
+            highRollers.push({
+              name: player.name,
+              tournaments: [],
+              totalWinnings: 0,
+              knockedOutBy: {},
+              knockedOut: {},
+              totalKnockOuts: 0,
+            });
+            indexOfPlayer = highRollers.length - 1;
           }
+          currentPlayer = highRollers[indexOfPlayer];
+          currentPlayer.tournaments.push(tournament);
+          currentPlayer.totalWinnings += player.net;
+          tournament.players.forEach((nextPlayer) => {
+            if (nextPlayer.name === currentPlayer.name) {
+              if (currentPlayer.name !== nextPlayer.knockedOutBy) {
+                if (
+                  currentPlayer.knockedOutBy[nextPlayer.knockedOutBy] ===
+                  undefined
+                ) {
+                  currentPlayer.knockedOutBy[nextPlayer.knockedOutBy] = 1;
+                } else {
+                  currentPlayer.knockedOutBy[nextPlayer.knockedOutBy] += 1;
+                }
+              }
+            } else if (nextPlayer.knockedOutBy === currentPlayer.name) {
+              if (currentPlayer.knockedOut[nextPlayer.name] === undefined) {
+                currentPlayer.knockedOut[nextPlayer.name] = 1;
+              } else {
+                currentPlayer.knockedOut[nextPlayer.name] += 1;
+              }
+              currentPlayer.totalKnockOuts += 1;
+            }
+          });
         });
-      });
+      } else {
+        tournament.players.forEach((player) => {
+          indexOfPlayer = players.findIndex(
+            (nextPlayer) => nextPlayer.name === player.name
+          );
+          if (indexOfPlayer === -1) {
+            players.push({
+              name: player.name,
+              tournaments: [],
+              totalWinnings: 0,
+              knockedOutBy: {},
+              knockedOut: {},
+              totalKnockOuts: 0,
+            });
+            indexOfPlayer = players.length - 1;
+          }
+          currentPlayer = players[indexOfPlayer];
+          currentPlayer.tournaments.push(tournament);
+          currentPlayer.totalWinnings += player.net;
+          tournament.players.forEach((nextPlayer) => {
+            if (nextPlayer.name === currentPlayer.name) {
+              if (currentPlayer.name !== nextPlayer.knockedOutBy) {
+                if (
+                  currentPlayer.knockedOutBy[nextPlayer.knockedOutBy] ===
+                  undefined
+                ) {
+                  currentPlayer.knockedOutBy[nextPlayer.knockedOutBy] = 1;
+                } else {
+                  currentPlayer.knockedOutBy[nextPlayer.knockedOutBy] += 1;
+                }
+              }
+            } else if (nextPlayer.knockedOutBy === currentPlayer.name) {
+              if (currentPlayer.knockedOut[nextPlayer.name] === undefined) {
+                currentPlayer.knockedOut[nextPlayer.name] = 1;
+              } else {
+                currentPlayer.knockedOut[nextPlayer.name] += 1;
+              }
+              currentPlayer.totalKnockOuts += 1;
+            }
+          });
+        });
+      }
     });
 
     players.forEach((playerBeingUpdated) => {
@@ -352,8 +397,44 @@ async function readAndProcessTournaments(
       csvFile += "\n";
     });
 
-    console.log("Number Of Tournaments:", tournaments.length);
-    console.log(tournaments[tournaments.length - 1].rawText);
+    csvFile += "\n";
+    csvFile += "High Rollers Standings\n";
+
+    console.log("High Rollers", highRollers);
+    highRollers.sort((a, b) => b.totalWinnings - a.totalWinnings);
+
+    highRollers.forEach((nextPlayer) => {
+      console.log(nextPlayer.name, nextPlayer.tournaments.length);
+      winningsPerTourn = (
+        nextPlayer.totalWinnings / nextPlayer.tournaments.length
+      ).toFixed(2);
+      let sortedKnockedOutBy = Object.entries(nextPlayer.knockedOutBy).sort(
+        (a, b) => b[1] - a[1]
+      );
+      console.log(sortedKnockedOutBy);
+      let sortedKnockedOut = Object.entries(nextPlayer.knockedOut).sort(
+        (a, b) => b[1] - a[1]
+      );
+      if (sortedKnockedOut[0] === undefined) {
+        sortedKnockedOut = [["No one", 0]];
+      }
+      if (sortedKnockedOutBy[0] === undefined) {
+        sortedKnockedOutBy = [["No one", 0]];
+      }
+      csvFile +=
+        nextPlayer.name +
+        "," +
+        nextPlayer.totalWinnings +
+        "," +
+        nextPlayer.tournaments.length +
+        "," +
+        winningsPerTourn +
+        "," +
+        sortedKnockedOutBy[0][0] +
+        "," +
+        sortedKnockedOut[0][0];
+      csvFile += "\n";
+    });
 
     fs.writeFile("resultsWithDetails.csv", csvFile, (err) => {
       if (err) {

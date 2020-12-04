@@ -1,5 +1,6 @@
 const fs = require("fs").promises;
 const fsNotPromises = require("fs");
+const { number } = require("yargs");
 const argv = require("yargs/yargs")(process.argv.slice(2)).argv;
 
 const getHHList = require("./mavensAPI").getHHList;
@@ -13,9 +14,10 @@ async function readAndProcessHH(
   endDate = undefined,
   useLocal = false
 ) {
+  let hands = [];
   try {
     let output = "";
-    let hands = [];
+
     let dataLinesWithBlanks = [];
     let dataLines = [];
 
@@ -244,6 +246,9 @@ async function readAndProcessHH(
 
       let boardLine = handLines[sectionIndexes.boardIndex];
 
+      if (boardLine === undefined) {
+        console.log("this one", handLines);
+      }
       let boardCardsStart = boardLine.indexOf("[") + 1;
       let boardCardsEnd = boardLine.indexOf("]") - 1;
 
@@ -288,43 +293,101 @@ async function readAndProcessHH(
 
       thisHandStartLine = nextHandStartLine;
     }
-    hands.reverse().forEach((theHand) => {
-      console.log(theHand.handNumber);
-      console.log(theHand.handDateTime);
-      console.log(theHand.gameInfo);
-      console.log(theHand.boardCards);
-      console.log(theHand.gameEnd);
-      console.log(
-        "Small Blind:",
-        theHand.smallBlind,
-        "Big Blind:",
-        theHand.bigBlind
-      );
-      theHand.players.forEach((player) => {
-        console.log("Name:", player.name);
-        console.log("Position:", player.position);
-        console.log("Sitting Out:", player.sittingOut);
-        console.log("PreFlop Actions:", player.preFlopAction);
-        console.log("Flop Actions", player.flopAction);
-        console.log("Turn Actions", player.turnAction);
-        console.log("River Actions", player.riverAction);
-        console.log("Summary value change", player.valueChange);
-        console.log("Hole Cards", player.holeCards);
-      });
-      console.log(hands[0].rawText);
-      console.log(hands[hands.length - 1]);
-      console.log("Total # of hands:", hands.length);
+
+    let numberOfFlops = 0;
+    let numberOfPairedFlops = 0;
+    hands.forEach((nextHand) => {
+      let board = nextHand.boardCards;
+      if (board.length > 2) {
+        numberOfFlops++;
+        let flop = board.slice(0, 3);
+        let unsuitedFlop = flop.map((card) => card[0]);
+        let unsuitedFlopSet = new Set(unsuitedFlop);
+        if (1 === unsuitedFlopSet.size) {
+          numberOfPairedFlops++;
+        }
+      }
     });
+    console.log("Number of hands:", hands.length);
+    console.log("Number of flops:", numberOfFlops);
+    console.log("Number of pair flops:", numberOfPairedFlops);
+    if (false) {
+      hands.reverse().forEach((theHand) => {
+        console.log(theHand.handNumber);
+        console.log(theHand.handDateTime);
+        console.log(theHand.gameInfo);
+        console.log(theHand.boardCards);
+        console.log(theHand.gameEnd);
+        console.log(
+          "Small Blind:",
+          theHand.smallBlind,
+          "Big Blind:",
+          theHand.bigBlind
+        );
+        theHand.players.forEach((player) => {
+          console.log("Name:", player.name);
+          console.log("Position:", player.position);
+          console.log("Sitting Out:", player.sittingOut);
+          console.log("PreFlop Actions:", player.preFlopAction);
+          console.log("Flop Actions", player.flopAction);
+          console.log("Turn Actions", player.turnAction);
+          console.log("River Actions", player.riverAction);
+          console.log("Summary value change", player.valueChange);
+          console.log("Hole Cards", player.holeCards);
+        });
+        console.log(hands[0].rawText);
+        console.log(hands[hands.length - 1]);
+        console.log("Total # of hands:", hands.length);
+      });
+    }
   } catch (err) {
     console.log("second catch", err);
   }
+  return hands;
 }
 exports.readAndProcessHH = readAndProcessHH;
 
+function playersFromHands(hands) {
+  let players = [];
+  console.log("pFh", hands.length);
+
+  hands.forEach((hand) => {
+    hand.players.forEach((playerInHand) => {
+      let playerIndex = -1;
+      players.map((playerInPlayers, index) => {
+        if (playerInPlayers.name === playerInHand.name) {
+          playerIndex = index;
+        }
+      });
+      let { name, ...thisHand } = playerInHand;
+      if (playerIndex === -1) {
+        players.push({ name: playerInHand.name, hands: [thisHand] });
+      } else {
+        players[playerIndex].hands.push(thisHand);
+      }
+    });
+  });
+
+  return players;
+}
 function toggleLog() {
   if (arguments[0] === true) {
     console.log(Object.values(arguments).slice(1).join(""));
   }
 }
 
-readAndProcessHH(argv.start, argv.end, argv.useLocal);
+async function test() {
+  let hands = await readAndProcessHH(argv.start, argv.end, argv.useLocal);
+  let players = playersFromHands(hands);
+  console.log(players);
+  console.log(players[0].hands);
+}
+
+//8355
+//8355 *
+//Unit 314
+//Arco's storage
+//1357 San Mateo Ave.
+//SSF
+
+test();
