@@ -270,6 +270,11 @@ async function readAndProcessHH(
         handLines.length
       );
 
+      hand.rawNoHoleCardsText = handLines.slice(
+        0,
+        sectionIndexes.summaryResultsSectionStart - 2
+      );
+
       summaryResultsSection.forEach((line) => {
         if (line.slice(0, 5) === "Seat ") {
           let nameStart = line.indexOf(": ") + 2;
@@ -380,19 +385,46 @@ function findPlayersBiggestLoss(player) {
   player.hands.length > 0 ? (biggestLossHand = player.hands[0]) : 0;
   player.hands.forEach((playerHand) => {
     if (
-      biggestLossHand.valueChange / biggestLossHand.startingStack >
+      biggestLossHand.valueChange / biggestLossHand.startingStack >=
       playerHand.valueChange / playerHand.startingStack
     ) {
       console.log(
         "Even worse",
-        biggestLossHand.valueChange,
-        playerHand.valueChange
+        biggestLossHand.valueChange / biggestLossHand.startingStack,
+        playerHand.valueChange / playerHand.startingStack
       );
       biggestLossHand = playerHand;
     }
   });
-  console.log("Worse hand", biggestLossHand);
+  console.log("Worst hand", biggestLossHand);
 }
+
+function outputPlayersAllInLosses(player) {
+  csvFile = "";
+  let biggestLossHand = undefined;
+  let toFeltCount = 0;
+  player.hands.length > 0 ? (biggestLossHand = player.hands[0]) : 0;
+  player.hands.forEach((playerHand) => {
+    if (playerHand.valueChange / playerHand.startingStack === -1) {
+      toFeltCount++;
+      csvFile += playerHand.hand.rawNoHoleCardsText.join("\n");
+      csvFile += "\n\n";
+      console.log("To the felt with:", playerHand.hand.rawNoHoleCardsText);
+      biggestLossHand = playerHand;
+    }
+  });
+  console.log("To Felt Count:", toFeltCount);
+  fs.writeFile(
+    "./fileOutPuts/" + player.name + "_ToTheFelt.txt",
+    csvFile,
+    (err) => {
+      if (err) {
+        console.log(err);
+      }
+    }
+  );
+}
+
 function toggleLog() {
   if (arguments[0] === true) {
     console.log(Object.values(arguments).slice(1).join(""));
@@ -402,7 +434,7 @@ function toggleLog() {
 async function test() {
   let hands = await readAndProcessHH(argv.start, argv.end, argv.useLocal);
   let players = playersFromHands(hands);
-  findPlayersBiggestLoss(players[0]);
+  players.forEach((player) => outputPlayersAllInLosses(player));
 }
 
 //8355

@@ -1,0 +1,155 @@
+Hand #5594-44 - 2020-11-24 22:56:07
+Game: NL Hold'em (5+0) - Blinds 75/150
+Site: remote1655poker
+Table: $5 1hr reg/rebuy no chop - Table 1
+Seat 1: BigByteMe (5450)
+Seat 3: RDeLateur (2955)
+Seat 4: GrossR (1180)
+Seat 9: MattDeLateur (2385)
+RDeLateur has the dealer button
+GrossR posts small blind 75
+MattDeLateur posts big blind 150
+** Hole Cards ** [4 players]
+BigByteMe calls 150
+RDeLateur folds
+GrossR calls 75
+MattDeLateur raises to 300
+BigByteMe calls 150
+GrossR calls 150
+** Flop ** [Tc 8d Jh]
+GrossR checks
+MattDeLateur bets 600
+BigByteMe raises to 5150 (All-in)
+GrossR calls 880 (All-in)
+MattDeLateur calls 1485 (All-in)
+BigByteMe refunded 3065
+** Turn ** [8s]
+** River ** [7d]
+** Side Pot 1 Show Down ** [Tc 8d Jh 8s 7d]
+BigByteMe shows [7s Qs] (Two Pair, Eights and Sevens +Q)
+MattDeLateur shows [Ad Ac] (Two Pair, Aces and Eights +J)
+MattDeLateur wins Side Pot 1 (2410) with Two Pair
+** Main Pot Show Down ** [Tc 8d Jh 8s 7d]
+GrossR shows [2d Ah] (a Pair of Eights +AJT)
+MattDeLateur wins Main Pot (3540) with Two Pair
+GrossR finishes tournament in place #4
+
+Hand #5669-35 - 2020-11-25 20:02:40
+Game: NL Hold'em (5+0) - Blinds 50/100
+Site: remote1655poker
+Table: $5 1hr reg/rebuy no chop - Table 1
+Seat 1: MattDeLateur (2860)
+Seat 2: MDeLateur (3900)
+Seat 8: GrossR (2980)
+Seat 9: RDeLateur (5250)
+RDeLateur has the dealer button
+MattDeLateur posts small blind 50
+MDeLateur posts big blind 100
+** Hole Cards ** [4 players]
+GrossR calls 100
+RDeLateur calls 100
+MattDeLateur calls 50
+MDeLateur checks
+** Flop ** [3h 8c Ah]
+MattDeLateur checks
+MDeLateur checks
+GrossR checks
+RDeLateur bets 100
+MattDeLateur folds
+MDeLateur folds
+GrossR calls 100
+** Turn ** [9d]
+GrossR bets 100
+RDeLateur raises to 900
+GrossR calls 800
+** River ** [5h]
+GrossR bets 100
+RDeLateur raises to 2700
+GrossR calls 1780 (All-in)
+RDeLateur refunded 820
+** Pot Show Down ** [3h 8c Ah 9d 5h]
+GrossR shows [Ks 2s] (High Card Ace +K985)
+RDeLateur shows [8h Ad] (Two Pair, Aces and Eights +9)
+RDeLateur wins Pot (6160) with Two Pair
+GrossR finishes tournament in place #4
+
+Hand #5732-23 - 2020-11-25 22:39:42
+Game: NL Hold'em (5+0) - Blinds 50/100
+Site: remote1655poker
+Table: Original $5 Tourney - Table 1
+Seat 1: GrossR (18)
+Seat 2: BigByteMe (4867)
+Seat 3: KOThompson (4541)
+Seat 4: RDeLateur (6380)
+Seat 5: MattDeLateur (2595)
+Seat 8: MDeLateur (11536)
+Seat 9: SDeLateur (2853)
+GrossR has the dealer button
+BigByteMe posts small blind 50
+KOThompson posts big blind 100
+** Hole Cards ** [7 players]
+RDeLateur calls 100
+MattDeLateur calls 100
+MDeLateur calls 100
+SDeLateur calls 100
+GrossR calls 18 (All-in)
+BigByteMe calls 50
+KOThompson checks
+** Flop ** [Js 5s 3s]
+BigByteMe bets 309
+KOThompson folds
+RDeLateur raises to 6200
+MattDeLateur folds
+MDeLateur folds
+SDeLateur folds
+BigByteMe calls 4458 (All-in)
+RDeLateur refunded 1433
+** Turn ** [Td]
+** River ** [As]
+** Side Pot 1 Show Down ** [Js 5s 3s Td As]
+BigByteMe shows [2s 4s] (a Straight Flush, Ace to Five)
+RDeLateur shows [7c Jd] (a Pair of Jacks +AT7)
+BigByteMe wins Side Pot 1 (10026) with a Straight Flush
+** Main Pot Show Down ** [Js 5s 3s Td As]
+GrossR shows [5c Qc] (a Pair of Fives +AQJ)
+BigByteMe wins Main Pot (126) with a Straight Flush
+GrossR finishes tournament in place #7
+
+Hand #7011-44 - 2020-12-02 23:05:17
+Game: NL Hold'em (5+0) - Blinds 100/200
+Site: remote1655poker
+Table: $5 1hr late reg/rebuy Top 2 chop - Table 1
+Seat 1: BigByteMe (2726)
+Seat 2: GrossR (1641)
+Seat 3: MattDeLateur (2796)
+Seat 4: MDeLateur (7048)
+Seat 5: RDeLateur (6650)
+Seat 9: SDeLateur (5829)
+MDeLateur has the dealer button
+RDeLateur posts small blind 100
+SDeLateur posts big blind 200
+** Hole Cards ** [6 players]
+BigByteMe calls 200
+GrossR calls 200
+MattDeLateur calls 200
+MDeLateur calls 200
+RDeLateur calls 100
+SDeLateur checks
+** Flop ** [8c Ac 8s]
+RDeLateur checks
+SDeLateur checks
+BigByteMe bets 2526 (All-in)
+GrossR calls 1441 (All-in)
+MattDeLateur folds
+MDeLateur folds
+RDeLateur folds
+SDeLateur folds
+BigByteMe refunded 1085
+** Turn ** [Kc]
+** River ** [3d]
+** Pot Show Down ** [8c Ac 8s Kc 3d]
+BigByteMe shows [7c 3c] (a Flush, Ace high +K873)
+GrossR shows [Kd As] (Two Pair, Aces and Kings +8)
+BigByteMe wins Pot (4082) with a Flush
+GrossR finishes tournament in place #6
+

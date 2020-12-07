@@ -1,0 +1,460 @@
+Hand #4813-91 - 2020-11-20 23:52:59
+Game: NL Hold'em (5+0) - Blinds 200/400 Ante 25
+Site: remote1655poker
+Table: $5 1hr late reg/rebuy Top 2 chop - Table 1
+Seat 2: BigByteMe (10537)
+Seat 3: RDeLateur (5370)
+Seat 6: MattDeLateur (5030)
+Seat 8: SDeLateur (3043)
+SDeLateur has the dealer button
+BigByteMe posts ante 25
+RDeLateur posts ante 25
+MattDeLateur posts ante 25
+SDeLateur posts ante 25
+BigByteMe posts small blind 200
+RDeLateur posts big blind 400
+** Hole Cards ** [4 players]
+MattDeLateur calls 400
+SDeLateur calls 400
+BigByteMe raises to 1600
+RDeLateur folds
+MattDeLateur calls 1200
+SDeLateur calls 1200
+** Flop ** [6s Th 7d]
+BigByteMe bets 8912 (All-in)
+MattDeLateur calls 3405 (All-in)
+SDeLateur folds
+BigByteMe refunded 5507
+** Turn ** [8d]
+** River ** [3s]
+** Pot Show Down ** [6s Th 7d 8d 3s]
+BigByteMe shows [Ks Kd] (a Pair of Kings +T87)
+MattDeLateur shows [Tc Qd] (a Pair of Tens +Q87)
+BigByteMe wins Pot (12110) with a Pair
+MattDeLateur finishes tournament in place #4
+
+Hand #4722-3 - 2020-11-20 22:28:05
+Game: NL Hold'em (1+0) - Blinds 10/20
+Site: remote1655poker
+Table: Test Chop - Table 1
+Seat 4: SDeLateur (3350)
+Seat 8: BigByteMe (2740)
+Seat 9: MattDeLateur (2910)
+MattDeLateur has the dealer button
+SDeLateur posts small blind 10
+BigByteMe posts big blind 20
+** Hole Cards ** [3 players]
+MattDeLateur raises to 260
+SDeLateur raises to 3350 (All-in)
+BigByteMe folds
+MattDeLateur calls 2650 (All-in)
+SDeLateur refunded 440
+** Flop ** [Qh 8d Ts]
+** Turn ** [2s]
+** River ** [5d]
+** Pot Show Down ** [Qh 8d Ts 2s 5d]
+SDeLateur shows [3s 3c] (a Pair of Threes +QT8)
+MattDeLateur shows [Kh Ad] (High Card Ace +KQT8)
+SDeLateur wins Pot (5840) with a Pair
+MattDeLateur finishes tournament in place #3
+BigByteMe finishes tournament in place #2 and wins 1 chips
+SDeLateur finishes tournament in place #1 and wins 2 chips
+
+Hand #5131-90 - 2020-11-22 22:28:44
+Game: NL Hold'em (5+0) - Blinds 200/400 Ante 25
+Site: remote1655poker
+Table: $5 1hr late reg/rebuy Top 2 chop - Table 1
+Seat 4: MDeLateur (11785)
+Seat 5: MattDeLateur (4671)
+Seat 6: KOThompson (7014)
+KOThompson has the dealer button
+MDeLateur posts ante 25
+MattDeLateur posts ante 25
+KOThompson posts ante 25
+MDeLateur posts small blind 200
+MattDeLateur posts big blind 400
+** Hole Cards ** [3 players]
+KOThompson calls 400
+MDeLateur calls 200
+MattDeLateur raises to 1200
+KOThompson calls 800
+MDeLateur folds
+** Flop ** [Qd 3d 7h]
+MattDeLateur checks
+KOThompson checks
+** Turn ** [Ks]
+MattDeLateur bets 2000
+KOThompson raises to 5789 (All-in)
+MattDeLateur calls 1446 (All-in)
+KOThompson refunded 2343
+** River ** [4c]
+** Pot Show Down ** [Qd 3d 7h Ks 4c]
+MattDeLateur shows [Ad Kh] (a Pair of Kings +AQ7)
+KOThompson shows [4h Kc] (Two Pair, Kings and Fours +Q)
+KOThompson wins Pot (9767) with Two Pair
+MattDeLateur finishes tournament in place #3
+MDeLateur finishes tournament in place #2 and wins 19 chips
+KOThompson finishes tournament in place #1 and wins 21 chips
+
+Hand #5041-76 - 2020-11-22 21:05:15
+Game: NL Hold'em (5+0) - Blinds 100/200
+Site: remote1655poker
+Table: Another $5 tourney - Table 1
+Seat 1: MattDeLateur (3693)
+Seat 9: RDeLateur (7977)
+MattDeLateur has the dealer button
+MattDeLateur posts small blind 100
+RDeLateur posts big blind 200
+** Hole Cards ** [2 players]
+MattDeLateur raises to 400
+RDeLateur raises to 800
+MattDeLateur calls 400
+** Flop ** [5s As 6s]
+RDeLateur bets 1600
+MattDeLateur raises to 2893 (All-in)
+RDeLateur calls 1293
+** Turn ** [Js]
+** River ** [9d]
+** Pot Show Down ** [5s As 6s Js 9d]
+MattDeLateur shows [8h Ad] (a Pair of Aces +J98)
+RDeLateur shows [6c 6h] (Three of a Kind, Sixes +AJ)
+RDeLateur wins Pot (7386) with Three of a Kind
+MattDeLateur finishes tournament in place #2
+RDeLateur finishes tournament in place #1 and wins 20 chips
+
+Hand #5144-13 - 2020-11-22 22:46:13
+Game: NL Hold'em (5+0) - Blinds 15/30
+Site: remote1655poker
+Table: Another $5 tourney - Table 1
+Seat 4: MattDeLateur (995)
+Seat 5: MDeLateur (3015)
+Seat 6: RDeLateur (4840)
+Seat 7: BigByteMe (3110)
+RDeLateur has the dealer button
+BigByteMe posts small blind 15
+MattDeLateur posts big blind 30
+** Hole Cards ** [4 players]
+MDeLateur calls 30
+RDeLateur calls 30
+BigByteMe calls 15
+MattDeLateur checks
+** Flop ** [6s 9h 9d]
+BigByteMe checks
+MattDeLateur bets 30
+MDeLateur folds
+RDeLateur calls 30
+BigByteMe folds
+** Turn ** [8s]
+MattDeLateur checks
+RDeLateur bets 180
+MattDeLateur calls 180
+** River ** [6d]
+MattDeLateur bets 755 (All-in)
+RDeLateur calls 755
+** Pot Show Down ** [6s 9h 9d 8s 6d]
+MattDeLateur shows [Tc 6c] (a Full House, Sixes full of Nines)
+RDeLateur shows [9s 7d] (a Full House, Nines full of Sixes)
+RDeLateur wins Pot (2050) with a Full House
+MattDeLateur finishes tournament in place #4
+
+Hand #5719-10 - 2020-11-25 22:17:19
+Game: NL Hold'em (5+0) - Blinds 15/30
+Site: remote1655poker
+Table: Original $5 Tourney - Table 1
+Seat 1: GrossR (3130)
+Seat 2: BigByteMe (3000)
+Seat 3: KOThompson (2720)
+Seat 4: RDeLateur (3000)
+Seat 5: MattDeLateur (2910)
+Seat 8: MDeLateur (8780)
+Seat 9: SDeLateur (3250)
+BigByteMe has the dealer button
+KOThompson posts small blind 15
+RDeLateur posts big blind 30
+** Hole Cards ** [7 players]
+MattDeLateur calls 30
+MDeLateur folds
+SDeLateur calls 30
+GrossR folds
+BigByteMe calls 30
+KOThompson calls 15
+RDeLateur checks
+** Flop ** [Ac Ah 6s]
+KOThompson checks
+RDeLateur checks
+MattDeLateur bets 30
+SDeLateur folds
+BigByteMe raises to 135
+KOThompson folds
+RDeLateur folds
+MattDeLateur calls 105
+** Turn ** [9h]
+MattDeLateur bets 60
+BigByteMe raises to 330
+MattDeLateur raises to 600
+BigByteMe calls 270
+** River ** [Jh]
+MattDeLateur bets 2145 (All-in)
+BigByteMe calls 2145
+** Pot Show Down ** [Ac Ah 6s 9h Jh]
+BigByteMe shows [Jd Ad] (a Full House, Aces full of Jacks)
+MattDeLateur shows [As 6h] (a Full House, Aces full of Sixes)
+BigByteMe wins Pot (5910) with a Full House
+MattDeLateur rebuys
+
+Hand #5746-37 - 2020-11-25 22:53:36
+Game: NL Hold'em (5+0) - Blinds 75/150
+Site: remote1655poker
+Table: Original $5 Tourney - Table 1
+Seat 2: BigByteMe (10727)
+Seat 3: KOThompson (2391)
+Seat 4: RDeLateur (2813)
+Seat 5: MattDeLateur (2270)
+Seat 8: MDeLateur (7636)
+Seat 9: SDeLateur (6953)
+KOThompson has the dealer button
+RDeLateur posts small blind 75
+MattDeLateur posts big blind 150
+** Hole Cards ** [6 players]
+MDeLateur folds
+SDeLateur calls 150
+BigByteMe calls 150
+KOThompson calls 150
+RDeLateur folds
+MattDeLateur raises to 450
+SDeLateur calls 300
+BigByteMe folds
+KOThompson calls 300
+** Flop ** [6d 8c Jh]
+MattDeLateur bets 1820 (All-in)
+SDeLateur folds
+KOThompson calls 1820
+** Turn ** [2s]
+** River ** [9h]
+** Pot Show Down ** [6d 8c Jh 2s 9h]
+KOThompson shows [Ts Jd] (a Pair of Jacks +T98)
+MattDeLateur shows [As Kd] (High Card Ace +KJ98)
+KOThompson wins Pot (5215) with a Pair
+MattDeLateur finishes tournament in place #6
+
+Hand #5836-28 - 2020-11-26 00:14:13
+Game: NL Hold'em (5+0) - Blinds 50/100
+Site: remote1655poker
+Table: $5 1hr reg/rebuy no chop - Table 1
+Seat 1: MDeLateur (8290)
+Seat 2: MattDeLateur (2240)
+Seat 6: SDeLateur (3045)
+Seat 8: BigByteMe (2180)
+Seat 9: KOThompson (2235)
+SDeLateur has the dealer button
+BigByteMe posts small blind 50
+KOThompson posts big blind 100
+** Hole Cards ** [5 players]
+MDeLateur calls 100
+MattDeLateur calls 100
+SDeLateur raises to 200
+BigByteMe folds
+KOThompson calls 100
+MDeLateur calls 100
+MattDeLateur calls 100
+** Flop ** [As 2d Ah]
+KOThompson checks
+MDeLateur bets 100
+MattDeLateur raises to 800
+SDeLateur folds
+KOThompson folds
+MDeLateur calls 700
+** Turn ** [Qh]
+MDeLateur checks
+MattDeLateur bets 1240 (All-in)
+MDeLateur calls 1240
+** River ** [2s]
+** Pot Show Down ** [As 2d Ah Qh 2s]
+MDeLateur shows [Ac 3d] (a Full House, Aces full of Deuces)
+MattDeLateur shows [4h 4d] (Two Pair, Aces and Fours +Q)
+MDeLateur wins Pot (4930) with a Full House
+MattDeLateur finishes tournament in place #5
+
+Hand #6040-133 - 2020-11-27 22:58:11
+Game: NL Hold'em (5+0) - Blinds 400/800 Ante 50
+Site: remote1655poker
+Table: $5 1hr reg/rebuy no chop - Table 1
+Seat 1: MattDeLateur (6689)
+Seat 3: SDeLateur (17377)
+Seat 4: BigByteMe (2924)
+MattDeLateur has the dealer button
+MattDeLateur posts ante 50
+SDeLateur posts ante 50
+BigByteMe posts ante 50
+SDeLateur posts small blind 400
+BigByteMe posts big blind 800
+** Hole Cards ** [3 players]
+MattDeLateur raises to 1600
+SDeLateur calls 1200
+BigByteMe folds
+** Flop ** [8h Qs 7h]
+SDeLateur checks
+MattDeLateur bets 5039 (All-in)
+SDeLateur calls 5039
+** Turn ** [4d]
+** River ** [2d]
+** Pot Show Down ** [8h Qs 7h 4d 2d]
+MattDeLateur shows [9h Qd] (a Pair of Queens +987)
+SDeLateur shows [Qc Kh] (a Pair of Queens +K87)
+SDeLateur wins Pot (14228) with a Pair
+MattDeLateur finishes tournament in place #3
+
+Hand #6338-52 - 2020-11-29 00:26:44
+Game: NL Hold'em (5+0) - Blinds 75/150
+Site: remote1655poker
+Table: $5 1hr reg/rebuy no chop - Table 1
+Seat 2: RDeLateur (15115)
+Seat 3: SDeLateur (7168)
+Seat 8: MattDeLateur (1487)
+RDeLateur has the dealer button
+SDeLateur posts small blind 75
+MattDeLateur posts big blind 150
+** Hole Cards ** [3 players]
+RDeLateur calls 150
+SDeLateur calls 75
+MattDeLateur raises to 1487 (All-in)
+RDeLateur calls 1337
+SDeLateur calls 1337
+** Flop ** [Jc 6h 4h]
+SDeLateur checks
+RDeLateur checks
+** Turn ** [Qs]
+SDeLateur checks
+RDeLateur checks
+** River ** [As]
+SDeLateur checks
+RDeLateur checks
+** Pot Show Down ** [Jc 6h 4h Qs As]
+RDeLateur shows [6d Ad] (Two Pair, Aces and Sixes +Q)
+SDeLateur shows [3c 3s] (a Pair of Threes +AQJ)
+MattDeLateur shows [Kd Jh] (a Pair of Jacks +AKQ)
+RDeLateur wins Pot (4461) with Two Pair
+MattDeLateur finishes tournament in place #3
+
+Hand #6643-73 - 2020-11-29 22:09:41
+Game: NL Hold'em (5+0) - Blinds 25/50
+Site: remote1655poker
+Table: $5 1hr reg/rebuy no chop - Table 1
+Seat 3: RDeLateur (7941)
+Seat 7: SDeLateur (2925)
+Seat 8: MattDeLateur (1024)
+RDeLateur has the dealer button
+SDeLateur posts small blind 25
+MattDeLateur posts big blind 50
+** Hole Cards ** [3 players]
+RDeLateur calls 50
+SDeLateur calls 25
+MattDeLateur raises to 1024 (All-in)
+RDeLateur calls 974
+SDeLateur folds
+** Flop ** [Th Jh 8s]
+** Turn ** [Ac]
+** River ** [Tc]
+** Pot Show Down ** [Th Jh 8s Ac Tc]
+RDeLateur shows [7c 7h] (Two Pair, Tens and Sevens +A)
+MattDeLateur shows [Ks 9c] (a Pair of Tens +AKJ)
+RDeLateur wins Pot (2098) with Two Pair
+MattDeLateur rebuys
+
+Hand #6697-127 - 2020-11-29 22:39:21
+Game: NL Hold'em (5+0) - Blinds 100/200
+Site: remote1655poker
+Table: $5 1hr reg/rebuy no chop - Table 1
+Seat 3: RDeLateur (13091)
+Seat 7: SDeLateur (3299)
+Seat 8: MattDeLateur (1500)
+RDeLateur has the dealer button
+SDeLateur posts small blind 100
+MattDeLateur posts big blind 200
+** Hole Cards ** [3 players]
+RDeLateur calls 200
+SDeLateur calls 100
+MattDeLateur checks
+** Flop ** [8s Kd 6d]
+SDeLateur checks
+MattDeLateur bets 200
+RDeLateur raises to 450
+SDeLateur calls 450
+MattDeLateur raises to 700
+RDeLateur folds
+SDeLateur calls 250
+** Turn ** [5h]
+SDeLateur bets 2399 (All-in)
+MattDeLateur calls 600 (All-in)
+SDeLateur refunded 1799
+** River ** [7s]
+** Pot Show Down ** [8s Kd 6d 5h 7s]
+SDeLateur shows [7h Kc] (Two Pair, Kings and Sevens +8)
+MattDeLateur shows [Kh 6c] (Two Pair, Kings and Sixes +8)
+SDeLateur wins Pot (3650) with Two Pair
+MattDeLateur finishes tournament in place #3
+
+Hand #7685-29 - 2020-12-06 22:48:48
+Game: NL Hold'em (5+0) - Blinds 25/50
+Site: remote1655poker
+Table: $5 1hr reg/rebuy no chop - Table 1
+Seat 1: SDeLateur (4099)
+Seat 6: BigByteMe (4470)
+Seat 7: RDeLateur (4435)
+Seat 8: MattDeLateur (1996)
+SDeLateur has the dealer button
+BigByteMe posts small blind 25
+RDeLateur posts big blind 50
+** Hole Cards ** [4 players]
+MattDeLateur raises to 150
+SDeLateur folds
+BigByteMe folds
+RDeLateur calls 100
+** Flop ** [7c Td 8h]
+RDeLateur bets 325
+MattDeLateur raises to 850
+RDeLateur raises to 4285 (All-in)
+MattDeLateur calls 996 (All-in)
+RDeLateur refunded 2439
+** Turn ** [Ac]
+** River ** [2d]
+** Pot Show Down ** [7c Td 8h Ac 2d]
+RDeLateur shows [9d Jh] (a Straight, Seven to Jack)
+MattDeLateur shows [Th Qc] (a Pair of Tens +AQ8)
+RDeLateur wins Pot (4017) with a Straight
+MattDeLateur rebuys
+
+Hand #7802-18 - 2020-12-07 00:15:31
+Game: NL Hold'em (5+0) - Blinds 15/30
+Site: remote1655poker
+Table: $5 1hr reg/rebuy no chop - Table 1
+Seat 1: MattDeLateur (2165)
+Seat 2: SDeLateur (3654)
+Seat 4: MDeLateur (4158)
+Seat 9: RDeLateur (7983)
+RDeLateur has the dealer button
+MattDeLateur posts small blind 15
+SDeLateur posts big blind 30
+** Hole Cards ** [4 players]
+MDeLateur calls 30
+RDeLateur folds
+MattDeLateur raises to 60
+SDeLateur raises to 90
+MDeLateur calls 60
+MattDeLateur calls 30
+** Flop ** [9c 8d 5h]
+MattDeLateur bets 270
+SDeLateur calls 270
+MDeLateur folds
+** Turn ** [Qh]
+MattDeLateur bets 405
+SDeLateur raises to 2025
+MattDeLateur calls 1400 (All-in)
+SDeLateur refunded 220
+** River ** [7d]
+** Pot Show Down ** [9c 8d 5h Qh 7d]
+MattDeLateur shows [8c 7c] (Two Pair, Eights and Sevens +Q)
+SDeLateur shows [9d 9h] (Three of a Kind, Nines +Q8)
+SDeLateur wins Pot (4420) with Three of a Kind
+MattDeLateur finishes tournament in place #4
+
