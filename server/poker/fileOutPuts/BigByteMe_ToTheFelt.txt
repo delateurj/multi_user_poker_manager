@@ -441,3 +441,28 @@ RDeLateur shows [Ah As] (Two Pair, Aces and Jacks +K)
 RDeLateur wins Pot (6076) with Two Pair
 BigByteMe finishes tournament in place #5
 
+Hand #8459-132 - 2020-12-09 00:51:26
+Game: NL Hold'em (5+0) - Blinds 400/800 Ante 50
+Site: remote1655poker
+Table: $5 1hr reg/rebuy no chop - Table 1
+Seat 2: BigByteMe (2076)
+Seat 4: MattDeLateur (27904)
+MattDeLateur has the dealer button
+BigByteMe posts ante 50
+MattDeLateur posts ante 50
+MattDeLateur posts small blind 400
+BigByteMe posts big blind 800
+** Hole Cards ** [2 players]
+MattDeLateur raises to 27854 (All-in)
+BigByteMe calls 1226 (All-in)
+MattDeLateur refunded 25828
+** Flop ** [6h 9c Jc]
+** Turn ** [4d]
+** River ** [Ts]
+** Pot Show Down ** [6h 9c Jc 4d Ts]
+BigByteMe shows [Kh 6s] (a Pair of Sixes +KJT)
+MattDeLateur shows [Qd Tc] (a Pair of Tens +QJ9)
+MattDeLateur wins Pot (4152) with a Pair
+BigByteMe finishes tournament in place #2 and wins 17.50 chips
+MattDeLateur finishes tournament in place #1 and wins 32.50 chips
+

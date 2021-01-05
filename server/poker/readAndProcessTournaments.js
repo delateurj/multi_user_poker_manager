@@ -436,7 +436,7 @@ async function readAndProcessTournaments(
       csvFile += "\n";
     });
 
-    fs.writeFile("resultsWithDetails.csv", csvFile, (err) => {
+    fs.writeFile("./fileOutputs/resultsWithDetails.csv", csvFile, (err) => {
       if (err) {
         console.log(err);
       }

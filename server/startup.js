@@ -14,7 +14,6 @@ var log = require("./logging/log").log;
 var fs = require("fs");
 
 var server = http.createServer(app);
-
 /**
  * Listen on provided port, on all network interfaces.
  */

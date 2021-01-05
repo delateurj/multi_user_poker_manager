@@ -18,9 +18,9 @@
     ]
   },
   "dependencies": {
-    "@sendgrid/mail": "^7.3.0",
+    "@sendgrid/mail": "^7.4.0",
     "app-root-path": "^3.0.0",
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "bunyan": "^1.8.14",

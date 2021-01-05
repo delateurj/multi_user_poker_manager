@@ -54,6 +54,8 @@ if (yn(process.env.REDIRECT_TO_HTTPS)) {
       res.redirect("https://" + req.get("Host") + req.url);
     } else next();
   });
+} else {
+  console.log("no redirect");
 }
 
 app.use(bodyParser.json());
