@@ -1,12 +1,14 @@
 Name,Net,# Tourns,Net/Tourn,Your Huckleberry,Favorite Target
-SDeLateur,50.25,7,7.18,RDeLateur,MattDeLateur
-BigByteMe,28.75,5,5.75,SDeLateur,MDeLateur
-RDeLateur,1,4,0.25,SDeLateur,MichelleD
-NDeLateur,-10,2,-5.00,SDeLateur,No one
+BigByteMe,93.5,13,7.19,RDeLateur,MDeLateur
+SDeLateur,35.75,25,1.43,NDeLateur,MattDeLateur
+GrossR,-5,1,-5.00,SDeLateur,No one
+NDeLateur,-10.25,16,-0.64,SDeLateur,SDeLateur
 MichelleD,-15,2,-7.50,RDeLateur,No one
-MattDeLateur,-15.5,5,-3.10,SDeLateur,MDeLateur
-MDeLateur,-39.5,4,-9.88,SDeLateur,NDeLateur
+MDeLateur,-23.5,13,-1.81,SDeLateur,NDeLateur
+MattDeLateur,-25.25,16,-1.58,SDeLateur,RDeLateur
+RDeLateur,-50.25,15,-3.35,SDeLateur,BigByteMe
 
 High Rollers Standings
-RDeLateur,100,1,100.00,No one,SDeLateur
-SDeLateur,-100,1,-100.00,RDeLateur,No one
+NDeLateur,80,1,80.00,No one,RDeLateur
+RDeLateur,40,2,20.00,NDeLateur,SDeLateur
+SDeLateur,-120,2,-60.00,RDeLateur,No one
